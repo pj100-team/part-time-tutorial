@@ -170,8 +170,23 @@ See 'git help git' for an overview of the system.
 ヒント: `|`とか`grep`を使います。
 
 `git`
+Q1. `github`のアカウントは存在しますか？ない場合は作りましょう。
 
-Q1. 本リポジトリを`clone`して,改善点を見つけて`Pull Request`(以下、PRと省略)を出しましょう！
+Q2. `ssh`で`github`に接続することができますか？以下のコマンドを打って確認しましょう！
+
+```
+ssh -T git@github.com
+```
+
+応答として以下の文字列が表示されたらOKです！
+
+```
+Hi (account名)! You've successfully authenticated, but GitHub does not provide shell access.
+```
+
+できない場合は、https://qiita.com/shizuma/items/2b2f873a0034839e47ceを参考にSSHで接続できるようにしましょう！
+
+Q3. 本リポジトリを`clone`して,改善点を見つけて`Pull Request`(以下、PRと省略)を出しましょう！
 どんな些細なPRでも構いません！:pray:
 
 `HTML` & `CSS`
