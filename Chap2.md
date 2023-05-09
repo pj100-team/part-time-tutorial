@@ -80,6 +80,16 @@ Q1. `pyenv`と`poetry`を使用して、python3.11を使用したプロジェク
 
 ヒント: Google検索してやり方を見てみましょう！公式ドキュメントにも色々書いてるので英語を頑張って読んだり、日本語訳したりして、読んでいきましょう！
 
+Q2. なぜ`pyenv`のような仮想環境ツールが必要なのでしょうか？
+
+Q3. `pyproject.toml`に記載されている`tool.poetry.dependencies`と`tool.poetry.group.dev.dependencies`にそれぞれ含まれるライブラリの違いは何でしょうか?
+
+Q4. `poetry.lock`ファイルは`git`で管理すべきでしょうか？しないべきでしょうか？
+
+Q5. `poetry.lock`ファイルが存在せずに、`pyproject.toml`のみが存在する場合に、どのような問題が起こるでしょうか？
+
+Q6. `poetry.lock`ファイルに存在する、`hash`という項目はなぜ必要なのでしょうか？
+
 ## Python
 
 Python言語について勉強しましょう！
@@ -135,6 +145,8 @@ ValueError("hoge is invalid input!")
 ```
 
 Q2. Classを使ったなんかいい課題を教えて下さい(help!)
+
+Q3. is-a関係とhas-a関係の違いは？
 
 
 ## DB
