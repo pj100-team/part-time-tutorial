@@ -28,9 +28,9 @@
 
 ## Chap3. Frontend
 
-- 環境構築
 - JavaScript
 - TypeScript
+- 環境構築
 - React
 - Next.js
 
