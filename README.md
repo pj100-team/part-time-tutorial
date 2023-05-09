@@ -32,17 +32,15 @@
 - TypeScript
 - 環境構築
 - React
-- Next.js
 
-## Chap4. Infrastructure
+## Chap4. Subject
+- 研修修了課題
+## Chap5. Infrastructure
 
 - ネットワークのキホンのキ
 - コンテナ技術(Docker)
 - AWSのキホンのキ
 
-## Chap5. Subject
-
-- 研修修了課題
 ## Chap6. More
 
 - 良いコードを書くために
