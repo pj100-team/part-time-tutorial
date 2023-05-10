@@ -170,6 +170,7 @@ See 'git help git' for an overview of the system.
 ヒント: `|`とか`grep`を使います。
 
 `git`
+
 Q1. `github`のアカウントは存在しますか？ない場合は作りましょう。
 
 Q2. `ssh`で`github`に接続することができますか？以下のコマンドを打って確認しましょう！
