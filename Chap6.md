@@ -1,6 +1,7 @@
 # More
 
 [Back to README](/README.md)
+[Back to Previous Chapter](/Chap5.md)
 
 この章では以下の項目を学ぶための本などを紹介します！
 興味に応じて適宜勉強していくことをおすすめします。

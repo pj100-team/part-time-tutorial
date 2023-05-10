@@ -1,6 +1,7 @@
 #　Frontend
 
 [Back to README](/README.md)
+[Back to Previous Chapter](/Chap2.md)
 ## JavaScript
 チュートリアルを使って基本的な文法をマスターしていきましょう！
 
