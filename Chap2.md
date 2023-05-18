@@ -12,6 +12,7 @@ Pythonが使用できるように、`pyenv`と`poetry`を使って環境を構�
 [`pyenv`公式](https://github.com/pyenv/pyenv) 
 
 [`poetry`公式](https://python-poetry.org/) 
+
 英語だけど頑張って読みましょう。
 
 ### `pyenv`のインストール
