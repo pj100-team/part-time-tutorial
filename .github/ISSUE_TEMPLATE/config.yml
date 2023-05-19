@@ -1,5 +1,8 @@
 blank_issues_enabled: true
 contact_links:
-  - name: Issue
-    about: Issue template
+  - name: plan 
+    about: チャプターのプランを作成する。
+    url: https://github.com/pj100-team/part-time-tutorial/issues/new?template=feature.md&projects=pj100-team/11
+  - name: question
+    about: 質問する。
     url: https://github.com/pj100-team/part-time-tutorial/issues/new?template=feature.md&projects=pj100-team/11
