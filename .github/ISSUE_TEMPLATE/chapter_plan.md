@@ -1,6 +1,7 @@
 ---
 name: Chapterプランテンプレート
 about: Chapterの予定を作成するためのテンプレート
+title: '[Who] Chapter[?] Plan'
 ---
 ## Chapter[?]
 
