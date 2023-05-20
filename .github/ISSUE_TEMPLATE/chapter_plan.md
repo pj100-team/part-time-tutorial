@@ -5,7 +5,7 @@ title: '[Who] Chapter[?] Plan'
 ---
 ## Chapter[?]
 
-このChapterで勉強した内容を下のコメントにメモしていきましょう！
+このChapterで勉強した内容やCheckPointの答えを下のコメントにメモしていきましょう！
 
 ## :cyclone: 作成時のチェック事項
 

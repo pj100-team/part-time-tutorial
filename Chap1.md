@@ -193,13 +193,15 @@ Hi (account名)! You've successfully authenticated, but GitHub does not provide 
 
 できない場合は、https://qiita.com/shizuma/items/2b2f873a0034839e47ceを参考にSSHで接続できるようにしましょう！
 
-Q3. 本リポジトリを`clone`して,改善点を見つけて`Pull Request`(以下、PRと省略)を出しましょう！
-どんな些細なPRでも構いません！:pray:
-
 `HTML` & `CSS`
 
 Q1. 簡単なTODOListを作ってみましょう。[ここ](https://www.w3schools.com/howto/howto_js_todolist.asp)に記載されている通りで、JavaScriptはまだやらなくても大丈夫です！見た目だけ再現できるようにしましょう！
 
+## 次のChapterを始める前に
+
+本リポジトリを`clone`して,改善点を見つけて`Pull Request`(以下、PRと省略)を出しましょう！
+どんな些細なPRでも構いません！:pray:
+改善点の`Pull Request`が出されたら、本Chapterのフィードバックと次Chapterのプランを作成するための面談をセットするので改善点の`Pull Request`はどんな内容でもいいので必ず出してください！
 
 [Go to Next Chapter](/Chap2.md)
 
