@@ -29,7 +29,7 @@ git --version
 
 ### Windows
 #### WSLおよびUbuntuのインストール
-基本的に開発ではLinux環境を使用することが多いので、まずはWSL(Windows Subsystem for Linux)というWindowsの中でLinux環境を動かすことができる機能を使用して、Linux環境を作成します。
+基本的に開発ではLinux環境を使用することが多いので、まずはWSL（Windows Subsystem for Linux）というWindowsの中でLinux環境を動かすことができる機能を使用して、Linux環境を作成します。
 
 [公式ページ](https://learn.microsoft.com/ja-jp/windows/wsl/install)に従ってLinux環境をインストールします。なお、公式ページにもある通り、Linux環境のインストールにおいて使用するのはVS Codeではなく、WindowsのコマンドプロンプトもしくはPowerShellです。
 
@@ -40,11 +40,11 @@ WSLを使って、Linux環境の一種であるUbuntu 20.04 LTSをインスト�
 #### VS CodeとWSLの接続
 VS CodeでUbutu内のファイルを編集・実行できるよう、設定します。
 
-[公式ページ]([https://learn.microsoft.com/ja-jp/windows/wsl/install](https://learn.microsoft.com/ja-jp/windows/wsl/tutorials/wsl-vscode) に従ってVS codeにRemote Developmentという拡張機能を追加し、その後、VS codeにてUbuntuを起動できるように設定してください。
+[公式ページ]([https://learn.microsoft.com/ja-jp/windows/wsl/install](https://learn.microsoft.com/ja-jp/windows/wsl/tutorials/wsl-vscode) に従ってVS CodeにRemote Developmentという拡張機能を追加し、その後、VS CodeにてUbuntuを起動できるように設定してください。
 
-最終的に、VS codeの編集画面の左下に緑色で「WSL：Ubuntu」と表示されれば成功です。
+最終的に、VS Codeの編集画面の左下に緑色で「WSL：Ubuntu」と表示されれば成功です。
 
-特に指示がない限り、以降のコマンド（例えば、次節〝Gitのインストール〟のsudo apt-get updateなどのコマンド）は、VS codeでUbuntuを起動した状態で、VS codeのターミナルに入力してください。
+特に指示がない限り、以降のコマンド（例えば、次節〝Gitのインストール〟のsudo apt-get updateなどのコマンド）は、VS CodeでUbuntuを起動した状態で、VS Codeのターミナルに入力してください。
 
 
 #### Gitのインストール
