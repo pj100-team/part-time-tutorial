@@ -2,6 +2,19 @@
 
 [Back to README](/README.md)
 
+
+## エディタ
+### Visual Studio Code
+使い慣れたエディタ・IDEがあればそれをお使いいただいて結構ですが、VIsual Studio Codeの方が圧倒的に評価が高いのでおすすめです。
+[Visual Studio Code 公式ページ](https://code.visualstudio.com/)
+
+日本語化もしておきましょう。
+[VSCode (Visual Studio Code) を日本語化する](https://www.karelie.net/vscode-visual-studio-code-japanese/)
+
+記事を読む
+[Visual Studio Codeの使い方、基本の「キ」](https://www.atmarkit.co.jp/ait/articles/1507/10/news028.html)
+
+
 ## 環境構築
 このセクションではこのチュートリアルを行う上で必要になる環境を構築していきます。
 対象はWindows、MacOS、Linuxです。
@@ -108,16 +121,6 @@ https://eng-entrance.com/category/linux/linux-basic
 
 https://xtech.nikkei.com/atcl/learning/column/19/00014/
 
-## エディタ
-### Visual Studio Code
-使い慣れたエディタ・IDEがあればそれをお使いいただいて結構ですが、VIsual Studio Codeの方が圧倒的に評価が高いのでおすすめです。
-[Visual Studio Code 公式ページ](https://code.visualstudio.com/)
-
-日本語化もしておきましょう。
-[VSCode (Visual Studio Code) を日本語化する](https://www.karelie.net/vscode-visual-studio-code-japanese/)
-
-記事を読む
-[Visual Studio Codeの使い方、基本の「キ」](https://www.atmarkit.co.jp/ait/articles/1507/10/news028.html)
 
 ## gitとその使い方
 
