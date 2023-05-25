@@ -77,6 +77,13 @@ ES6の文法で書くことが多いので、特に
 
 https://react.dev/learn
 
+↑の資料の中でも、
+
+- [ ] [Quick Start](https://react.dev/learn)
+- [ ] [Tutorial](https://react.dev/learn/tutorial-tic-tac-toe)
+
+の項目は必ず行うようにしてください！
+
 ## Checkpoint[5h]
 
 Q1. `async`, `await`, `Promise`について説明してください。
