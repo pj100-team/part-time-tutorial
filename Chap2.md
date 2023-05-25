@@ -3,7 +3,8 @@
 [Back to README](/README.md)
 
 [Back to Previous Chapter](/Chap1.md)
-## 環境構築
+
+## 環境構築[2h]
 本節では主にPythonの学習を行っていきます。
 Pythonが使用できるように、`pyenv`と`poetry`を使って環境を構築していきます。
 
@@ -175,7 +176,7 @@ Q2. デッドロックになる場合はどのような場合でしょうか？
 
 Q3. N+1問題とは何でしょうか？
 
-## FastAPI
+## FastAPI [15h]
 
 いよいよWebアプリケーションのバックエンドを開発していきます！
 
@@ -183,7 +184,7 @@ Q3. N+1問題とは何でしょうか？
 
 https://fastapi.tiangolo.com/ja/tutorial/
 
-## Checkpoint4
+## Checkpoint4 [3h]
 
 Q1. 以下の単語はどのような意味か説明してください。
 
