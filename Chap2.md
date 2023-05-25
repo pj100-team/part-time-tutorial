@@ -79,7 +79,7 @@ poetry --version
 ```
 が実行できればOKです！
 
-## Checkpoint1
+## Checkpoint1[3h]
 
 Q1. `pyenv`と`poetry`を使用して、python3.11を使用したプロジェクトを作ってみましょう！
 
@@ -95,7 +95,7 @@ Q5. `poetry.lock`ファイルが存在せずに、`pyproject.toml`のみが存�
 
 Q6. `poetry.lock`ファイルに存在する、`hash`という項目はなぜ必要なのでしょうか？
 
-## Python
+## Python[15h]
 
 Python言語について勉強しましょう！
 
@@ -154,7 +154,7 @@ Q2. Classを使ったなんかいい課題を教えて下さい(help!)
 Q3. is-a関係とhas-a関係の違いは？
 
 
-## DB
+## DB[3h]
 Webアプリケーションにおけるデータを保管するデータベース(以下DB)について勉強していきましょう。
 
 実際のWebアプリケーションではORM(Model)と呼ばれるDBを抽象化(細かい操作は見えなくして簡単に扱えるようにすること)したライブラリが使われます。
@@ -174,11 +174,6 @@ Q1. DBにIndexを張るメリットとデメリットとは何でしょうか？
 Q2. デッドロックになる場合はどのような場合でしょうか？
 
 Q3. N+1問題とは何でしょうか？
-
-Q4. SQL100本ノックをやりましょう(1~30番ぐらいまではやってみましょう。それ以降はお好みで)
-
-(Google Colaboratoryで実行できます。)
-https://note.com/nmt_rootassist/n/nf70b6e73f673
 
 ## FastAPI
 
