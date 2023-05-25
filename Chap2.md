@@ -96,7 +96,7 @@ Q5. `poetry.lock`ファイルが存在せずに、`pyproject.toml`のみが存�
 
 Q6. `poetry.lock`ファイルに存在する、`hash`という項目はなぜ必要なのでしょうか？
 
-## Python[15h]
+## Python[10h]
 
 Python言語について勉強しましょう！
 
@@ -149,10 +149,6 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 ValueError("hoge is invalid input!")
 ```
-
-Q2. Classを使ったなんかいい課題を教えて下さい(help!)
-
-Q3. is-a関係とhas-a関係の違いは？
 
 
 ## DB[3h]
