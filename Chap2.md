@@ -180,7 +180,7 @@ Q3. N+1問題とは何でしょうか？
 
 https://fastapi.tiangolo.com/ja/tutorial/
 
-## Checkpoint4 [3h]
+## Checkpoint4 [1h]
 
 Q1. 以下の単語はどのような意味か説明してください。
 
@@ -193,12 +193,6 @@ Q1. 以下の単語はどのような意味か説明してください。
 8. CSRFトークン
 9. HTTPとHTTPSの違い
 10. リクエストボディとリクエストヘッダ
-
-Q2. 以下のサイトを参考にTODOアプリのエンドポイントを作ってみてください。
-
-環境は、Checkpoint1で作成した環境を使用してください。ライブラリ管理は`pip`ではなく、`poetry`を使用してください！
-
-https://dev.to/nditah/develop-a-simple-python-fastapi-todo-app-in-1-minute-8dg
 
 ## 次のChapterを始める前に
 
