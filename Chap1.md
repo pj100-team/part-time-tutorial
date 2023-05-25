@@ -3,7 +3,7 @@
 [Back to README](/README.md)
 
 
-## エディタ
+## エディタ[1h]
 ### Visual Studio Code
 Visual Studio Code（通称：VS Code）とは、プログラミングのコードを編集するためのエディタ（編集アプリ）です。
 使い慣れたエディタ・IDEがあればそれをお使いいただいて結構ですが、VS Codeの方が圧倒的に評価が高いのでおすすめです。エディタにこだわりのない方は、以下の公式ページよりVS Codeをダウンロードしてください。
@@ -16,7 +16,7 @@ Visual Studio Code（通称：VS Code）とは、プログラミングのコー�
 [Visual Studio Codeの使い方、基本の「キ」](https://www.atmarkit.co.jp/ait/articles/1507/10/news028.html)
 
 
-## 環境構築
+## 環境構築[2h]
 このセクションではこのチュートリアルを行う上で必要になる環境を構築していきます。
 対象はWindows、MacOS、Linuxです。
 
@@ -125,7 +125,7 @@ git --version
 結果として`git version 2.25.1`のような文字列が表示されたら、キホンの環境構築はOKです！
 
 
-## Linuxのキホンのキ
+## Linuxのキホンのキ[2h]
 
 続いて、Linuxコマンドの使い方を学習していきます。(MacOSでも大体一緒です！)
 まず最初にLinuxのキホンについて以下のブログにまとまっているので見てみると良いと思います！
@@ -138,7 +138,7 @@ https://eng-entrance.com/category/linux/linux-basic
 https://xtech.nikkei.com/atcl/learning/column/19/00014/
 
 
-## gitとその使い方
+## gitとその使い方[3h]
 
 続いて、`git`について勉強します。エンジニアとして働く以上、`git`を避けては通れません！
 
@@ -154,11 +154,17 @@ https://qiita.com/TakumaKurosawa/items/79a75026327d8deb9c04
 
 
 
-## HTML & CSS
+## HTML & CSS[2h]
 
 Web開発を行う基本となるHTMLとCSSについて学んで行きましょう！
 
 [Webデザインの教科書](https://web-design-textbook.com/)
+
+上記のサイトの以下の項目に取り組みましょう。
+- HTML
+- CSS(基本編)
+- Web制作(準備編)
+- Web制作(基本編)
 
 
 
@@ -223,10 +229,6 @@ Hi (account名)! You've successfully authenticated, but GitHub does not provide 
 ```
 
 できない場合は、https://qiita.com/shizuma/items/2b2f873a0034839e47ceを参考にSSHで接続できるようにしましょう！
-
-`HTML` & `CSS`
-
-Q1. 簡単なTODOListを作ってみましょう。[ここ](https://www.w3schools.com/howto/howto_js_todolist.asp)に記載されている通りで、JavaScriptはまだやらなくても大丈夫です！見た目だけ再現できるようにしましょう！
 
 ## 次のChapterを始める前に
 
