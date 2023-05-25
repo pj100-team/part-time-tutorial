@@ -3,18 +3,8 @@
 [Back to README](/README.md)
 
 [Back to Previous Chapter](/Chap2.md)
-## JavaScript
-チュートリアルを使って基本的な文法をマスターしていきましょう！
 
-https://www.w3schools.com/js/
 
-Classに関しては、Reactでほぼ使わないので、できなくても大丈夫です！
-ES6の文法で書くことが多いので、特に
-
-- Arrow関数
-- Spread演算子
-
-に関しては掛けるようにしておきましょう。
 
 ## 環境構築
 フロントエンドの環境構築を行っていきます。
@@ -58,23 +48,36 @@ v16.20.0
 
 
 
-## TypeScript
+## TypeScript[20h]
 
-JavaScriptに型がついた言語です。
-普段の開発ではTypeScriptを使用することが多いので、マスターしましょう！
-
-以下の資料はかなりボリュームがありますが、Reactの部分などは飛ばしましょう。
+フロントエンドの開発で主に使用する言語です。
 
 https://typescript-jp.gitbook.io/deep-dive/
 
+↑のTypeScript Deep Diveはかなりよくまとまっています。以下の項目を勉強しましょう。
 
-## React
+- [ ] [TypeScript入門 & 環境構築](https://typescript-jp.gitbook.io/deep-dive/getting-started)
+- [ ] [JavaScript](https://typescript-jp.gitbook.io/deep-dive/recap)
+- [ ] [モダンなJavaScriptの機能](https://typescript-jp.gitbook.io/deep-dive/recap)
+- [ ] [プロジェクトの環境設定](https://typescript-jp.gitbook.io/deep-dive/project)
+- [ ] [Node.js & TypeScriptのプロジェクト作成](https://typescript-jp.gitbook.io/deep-dive/nodejs)
+
+Classに関しては、Reactでほぼ使わないので、できなくても大丈夫です！
+ES6の文法で書くことが多いので、特に
+
+- Arrow関数
+- Spread演算子
+
+に関しては書けるようにしておきましょう。
+
+
+## React[15h]
 
 いよいよReactを勉強していきます！公式が一番わかりやすく、非常によくまとまっているのでやっていきましょう！
 
 https://react.dev/learn
 
-## Checkpoint
+## Checkpoint[5h]
 
 Q1. `async`, `await`, `Promise`について説明してください。
 
