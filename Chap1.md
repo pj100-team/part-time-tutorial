@@ -128,14 +128,9 @@ git --version
 ## Linuxのキホンのキ[2h]
 
 続いて、Linuxコマンドの使い方を学習していきます。(MacOSでも大体一緒です！)
-まず最初にLinuxのキホンについて以下のブログにまとまっているので見てみると良いと思います！
+Linuxのキホンについて以下のブログにまとまって解説されているので、読んでください！
 
 https://eng-entrance.com/category/linux/linux-basic
-
-続いて、Shell(コマンドを打つ黒い画面)を通じて、ファイル作成や編集といった様々な操作をできるようになりましょう！
-以下の漫画がわかりやすく解説されているので、読んでください！
-
-https://xtech.nikkei.com/atcl/learning/column/19/00014/
 
 
 ## gitとその使い方[3h]
