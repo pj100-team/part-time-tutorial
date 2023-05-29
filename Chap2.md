@@ -160,9 +160,8 @@ Webアプリケーションにおけるデータを保管するデータベー�
 
 そこで、まず最初はDBとはどういうものか、そしてDBを操るSQLとはどういったものなのかをさらっと理解しておきましょう。
 
-- [DB入門](http://www.isc.meiji.ac.jp/~ri03037/ICTdb1/step01.html)
-- [Progate SQL入門](https://prog-8.com/courses/sql)
-- +1 [適切なIndexを張るために](https://qiita.com/kodai-saito/items/541e4fe46c2d3edc9634)
+- [DB入門](https://qiita.com/devopsCoordinator/items/9b70e506150888e190be)
+- +1 [Indexとは](https://zenn.dev/suzuki_hoge/books/2022-12-database-index-9520da88d02c4f)
 
 ## Checkpoint3
 
