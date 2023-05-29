@@ -154,7 +154,7 @@ https://qiita.com/TakumaKurosawa/items/79a75026327d8deb9c04
 
 
 
-## HTML & CSS[2h]
+## HTML & CSS[4h]
 
 Web開発を行う基本となるHTMLとCSSについて学んで行きましょう！
 
