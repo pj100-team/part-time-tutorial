@@ -148,7 +148,7 @@ https://backlog.com/ja/git-tutorial/
 
 入門編、発展編、プルリクエスト編の全てに目を通しましょう。ただし、途中でBacklogを使用したチュートリアルが登場しますが、これらはやらずに飛ばしてください（Backlogに有料登録する必要があるため）。
 
-ある程度理解できたら、以下のハンズオンを実際に行ってみて、手を動かしてgit,githubを使えるようになりましょう。
+ある程度理解できたら、以下のハンズオンを実際に行ってみて、手を動かしてgit、githubを使えるようになりましょう。
 
 https://qiita.com/TakumaKurosawa/items/79a75026327d8deb9c04
 
@@ -235,7 +235,7 @@ Hi (account名)! You've successfully authenticated, but GitHub does not provide 
 
 ## 次のChapterを始める前に
 
-本リポジトリを`clone`して,改善点を見つけて`Pull Request`(以下、PRと省略)を出しましょう！
+本リポジトリを`clone`して、改善点を見つけて`Pull Request`(以下、PRと省略)を出しましょう！
 どんな些細なPRでも構いません！:pray:
 改善点の`Pull Request`が出されたら、本Chapterのフィードバックと次Chapterのプランを作成するための面談をセットするので改善点の`Pull Request`はどんな内容でもいいので必ず出してください！
 
