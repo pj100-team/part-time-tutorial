@@ -84,7 +84,7 @@ https://react.dev/learn
 
 の項目は必ず行うようにしてください！
 
-## Checkpoint[5h]
+## Checkpoint
 
 Q1. `async`, `await`, `Promise`について説明してください。
 
