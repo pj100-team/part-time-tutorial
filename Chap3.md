@@ -90,10 +90,6 @@ Q1. `async`, `await`, `Promise`について説明してください。
 
 Q2. `TypeScript`における、ジェネリクスとはどういうものでしょうか？
 
-Q3. Reactを使ってTODOアプリを作ってみてください。
-
-参考: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_todo_list_beginning
-
 ## 次のChapterを始める前に
 
 本リポジトリを`clone`して,改善点を見つけて`Pull Request`(以下、PRと省略)を出しましょう！
