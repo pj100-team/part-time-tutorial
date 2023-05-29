@@ -230,7 +230,7 @@ ssh -T git@github.com
 Hi (account名)! You've successfully authenticated, but GitHub does not provide shell access.
 ```
 
-できない場合は、https://qiita.com/shizuma/items/2b2f873a0034839e47ceを参考にSSHで接続できるようにしましょう！
+できない場合は、https://qiita.com/shizuma/items/2b2f873a0034839e47ce　を参考にSSHで接続できるようにしましょう！
 
 ## 次のChapterを始める前に
 
