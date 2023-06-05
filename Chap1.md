@@ -230,9 +230,9 @@ Hi (account名)! You've successfully authenticated, but GitHub does not provide 
 
 ## 次のChapterを始める前に
 
-本リポジトリを`clone`して、改善点を見つけて`Pull Request`(以下、PRと省略)を出しましょう！
+本リポジトリを`clone`し、改善点を見つけて`Pull Request`(以下、PRと省略)を出しましょう！
 どんな些細なPRでも構いません！:pray:
-改善点の`Pull Request`が出されたら、本Chapterのフィードバックと次Chapterのプランを作成するための面談をセットするので改善点の`Pull Request`はどんな内容でもいいので必ず出してください！
+改善点の`Pull Request`が出されたら、本Chapterのフィードバックと次Chapterのプランを作成するための面談をセットします。改善点の`Pull Request`はどんな内容でもいいので必ず出してください！
 
 [Go to Next Chapter](/Chap2.md)
 
