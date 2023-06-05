@@ -48,6 +48,6 @@ https://to-do.live.com/tasks
 
 本リポジトリを`clone`し、改善点を見つけて`Pull Request`(以下、PRと省略)を出しましょう！
 どんな些細なPRでも構いません！:pray:
-改善点の`Pull Request`が出されたら、本Chapterのフィードバックと次Chapterのプランを作成するための面談をセットします。そのため、改善点の`Pull Request`はどんな内容でもいいので必ず出してください！
+改善点の`Pull Request`が出されたら、本Chapterのフィードバックと次Chapterのプランを作成するための面談をセットします。改善点の`Pull Request`はどんな内容でもいいので必ず出してください！
 
 [Go to Next Chapter](/Chap5.md)
