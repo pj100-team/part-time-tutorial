@@ -102,7 +102,7 @@ brew install git
 git --version
 ```
 
-結果として`git version 2.30.1 (Apple Git-130)`のような文字列が表示されたら、キホンの環境構築はOKです！
+結果として`git version 2.40.1`のような文字列が表示されたら、キホンの環境構築はOKです！
 
 ### Linux
 
