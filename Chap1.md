@@ -5,7 +5,7 @@
 
 ## エディタ[1h]
 ### Visual Studio Code
-Visual Studio Code（通称：VS Code）とは、プログラミングのコードを編集するためのエディタ（編集アプリ）です。
+Visual Studio Code（通称：VS Code）とは、プログラミングのコードを編集するためのエディタ（編集アプリ）です。。。
 使い慣れたエディタ・IDEがあればそれをお使いいただいて結構ですが、VS Codeの方が圧倒的に評価が高いのでおすすめです。エディタにこだわりのない方は、以下の公式ページよりVS Codeをダウンロードしてください。
 [Visual Studio Code 公式ページ](https://code.visualstudio.com/)
 
