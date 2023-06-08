@@ -83,7 +83,7 @@ brew --version
 結果として
 
 ```
-Homebrew 4.0.10
+Homebrew 4.0.19
 Homebrew/homebrew-core (git revision 29f317deb32; last commit 2023-04-03)
 Homebrew/homebrew-cask (git revision 4602819837; last commit 2023-04-03)
 ```
