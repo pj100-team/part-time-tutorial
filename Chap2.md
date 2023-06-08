@@ -96,11 +96,11 @@ Q5. `poetry.lock`ファイルが存在せずに、`pyproject.toml`のみが存�
 
 Q6. `poetry.lock`ファイルに存在する、`hash`という項目はなぜ必要なのでしょうか？
 
-## Python[8h]
+## Python[10h]
 
 Python言語について勉強しましょう！
 
-基本的な文法(`if`, `for`)や`Class`などは特に重要です。以下の記事を読み、例題などで実際に手を動かして、じっくり勉強してみてください。
+基本的な文法(`if`, `for`)や`Class`などは特に重要です。以下の記事を読み、練習問題などで実際に手を動かして、じっくり勉強してみてください。
 
 https://newmonz.jp/lesson/python-basic/chapter-1
 
