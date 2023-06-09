@@ -100,9 +100,15 @@ Q6. `poetry.lock`ファイルに存在する、`hash`という項目はなぜ必
 
 Python言語について勉強しましょう！
 
+基本的な文法(`if`, `for`)や`Class`などは特に重要です。以下の記事を読み、練習問題などで実際に手を動かして、じっくり勉強してみてください。
+
+https://newmonz.jp/lesson/python-basic/chapter-1
+
+
+以下のサイトでは、中上級者向けにPythonの機能が網羅的に紹介されています。上記のサイトを勉強し終えた人やPythonに自信がある人も、一度目を通しておいてください。
+
 https://www.tohoho-web.com/python/
 
-特に、基本的な文法(`if`, `for`)と`Class`は重要なのでよく勉強してみてください。
 
 ## Checkpoint2
 
