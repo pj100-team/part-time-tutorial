@@ -7,6 +7,7 @@ Chapterはそれぞれ、`Chap<i>.md`というファイルに内容が書かれ�
 
 ## 進め方
 [オンボーディング資料](https://docs.google.com/presentation/d/1wtWAtAGNHhn2OLec23PiPrfkcM73GJBXYlEHNN1SSYw/edit#slide=id.p)
+
 まず最初に梅原と面談を行いスケジュールや目標について設定します。
 
 進捗管理は、githubのissueで管理します。各自勉強した内容をissueのコメントに書き溜めて言ってください！
