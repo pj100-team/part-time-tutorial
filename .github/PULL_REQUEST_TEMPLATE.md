@@ -1,9 +1,6 @@
 Chapterの学習を終了しましたか？
-終了の場合は:+1:を途中の場合は:rocket:をPRのタイトルに入れてください
+終了の場合は:white_check_mark:`:white_check_mark:`を途中の場合は:rocket:`:rocket:`をPRのタイトルの先頭に入れてください
 
-```
-<:+1: | :rocket:>
-```
 
 ## :cyclone: なぜ修正するのか
 
