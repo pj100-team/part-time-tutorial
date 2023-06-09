@@ -5,7 +5,7 @@
 
 ## エディタ[1h]
 ### Visual Studio Code
-Visual Studio Code（通称：VS Code）とは、プログラミングのコードを編集するためのエディタ（編集アプリ）です。
+Visual Studio Code（通称：VS Code）とは、プログラミングのコードを編集するためのエディタ（編集アプリ）です。。。
 使い慣れたエディタ・IDEがあればそれをお使いいただいて結構ですが、VS Codeの方が圧倒的に評価が高いのでおすすめです。エディタにこだわりのない方は、以下の公式ページよりVS Codeをダウンロードしてください。
 [Visual Studio Code 公式ページ](https://code.visualstudio.com/)
 
@@ -131,6 +131,8 @@ git --version
 Linuxのキホンについて以下のブログにまとまって解説されているので、読んでください！
 
 https://eng-entrance.com/category/linux/linux-basic
+
+コマンドについては、最低限cat,cd,ls,grep,mkdir,rm,touch,pwd,sudo の意味がわかるようにすれば大丈夫だと思います。使っていくうちに覚えるのであまり時間をかけなくていいと思います。（西島）
 
 
 ## gitとその使い方[3h]
