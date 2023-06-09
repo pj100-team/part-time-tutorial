@@ -132,6 +132,8 @@ Linuxのキホンについて以下のブログにまとまって解説されて
 
 https://eng-entrance.com/category/linux/linux-basic
 
+コマンドについては、最低限cat,cd,ls,grep,mkdir,rm,touch,pwd,sudo の意味がわかるようにすれば大丈夫だと思います。使っていくうちに覚えるのであまり時間をかけなくていいと思います。（西島）
+
 
 ## gitとその使い方[3h]
 
