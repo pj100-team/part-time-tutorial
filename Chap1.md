@@ -137,17 +137,37 @@ https://eng-entrance.com/category/linux/linux-basic
 
 ## gitとその使い方[3h]
 
-続いて、`git`について勉強します。エンジニアとして働く以上、`git`を避けては通れません！
+1.続いて、`git`について勉強します。エンジニアとして働く以上、`git`を避けては通れません！
 
-まず以下の資料で`git`の意味と使い方の基礎を学びましょう
+ まず始めに`github`のアカウントは存在しますか？ない場合は作りましょう。
 
-https://backlog.com/ja/git-tutorial/
+2.次に以下の資料で`git`の意味と使い方の基礎を学びましょう
 
-入門編、発展編、プルリクエスト編の全てに目を通しましょう。ただし、途中でBacklogを使用したチュートリアルが登場しますが、これらはやらずに飛ばしてください（Backlogに有料登録する必要があるため）。
+ https://backlog.com/ja/git-tutorial/
 
-ある程度理解できたら、以下のハンズオンを実際に行ってみて、手を動かしてgit、githubを使えるようになりましょう。
+ 入門編、発展編、プルリクエスト編の全てに目を通しましょう。ただし、途中でBacklogを使用したチュートリアルが登場しますが、これ らはやらずに飛ばしてください（Backlogに有料登録する必要があるため）。
+ ※プルリクエスト編でローカルリポジトリからリモートリポジトリにpushするためには、sshキーを登録しなければなりません。
+ プルリクエスト編に進む前に以下の項目を確認しましょう！
 
-https://qiita.com/TakumaKurosawa/items/79a75026327d8deb9c04
+`ssh`で`github`に接続することができますか？以下のコマンドを打って確認しましょう！
+
+```
+ssh -T git@github.com
+```
+
+応答として以下の文字列が表示されたらプルリクエスト編の準備はOKです！
+
+```
+Hi (account名)! You've successfully authenticated, but GitHub does not provide shell access.
+```
+
+できない場合は、[こちらのサイト](https://qiita.com/shizuma/items/2b2f873a0034839e47ce)
+を参考にSSHで接続できるようにしましょう！
+
+
+3.ある程度理解できたら、以下のハンズオンを実際に行ってみて、手を動かしてgit、githubを使えるようになりましょう。
+
+ https://qiita.com/TakumaKurosawa/items/79a75026327d8deb9c04
 
 
 
@@ -211,24 +231,6 @@ command not found: hoge
 
 ※`hoge`とは、全く意味のない名称を示したい時に使う「メタ構文変数」と呼ばれるものの1つです。実際に`hoge`とターミナルに打ち込んで何かが動作するわけではありません。例えば、郵便局のサイトを訪れると、宛名の書き方のところに「郵便太郎 様」とか「郵便花子 様」とかテキトーな名前が使われていますよね？プログラミング界における「郵便太郎」が`hoge`です。他にも`piyo`、`foo`、`bar`など色々あります。プログラミングの教材サイトなどでちょくちょく登場するので覚えておきましょう。
 
-`git`
-
-Q1. `github`のアカウントは存在しますか？ない場合は作りましょう。
-
-Q2. `ssh`で`github`に接続することができますか？以下のコマンドを打って確認しましょう！
-
-```
-ssh -T git@github.com
-```
-
-応答として以下の文字列が表示されたらOKです！
-
-```
-Hi (account名)! You've successfully authenticated, but GitHub does not provide shell access.
-```
-
-できない場合は、[こちらのサイト](https://qiita.com/shizuma/items/2b2f873a0034839e47ce)
-を参考にSSHで接続できるようにしましょう！
 
 ## 次のChapterを始める前に
 
@@ -237,6 +239,3 @@ Hi (account名)! You've successfully authenticated, but GitHub does not provide 
 改善点の`Pull Request`が出されたら、本Chapterのフィードバックと次Chapterのプランを作成するための面談をセットします。改善点の`Pull Request`はどんな内容でもいいので必ず出してください！
 
 [Go to Next Chapter](/Chap2.md)
-
-
-
