@@ -166,7 +166,8 @@ Webアプリケーションにおけるデータを保管するデータベー�
 
 そこで、そもそもDBとはどういうものか、そしてDBを操るSQLとはどういったものなのか、さらっと理解しておきましょう。
 
-- [DB入門](https://qiita.com/devopsCoordinator/items/9b70e506150888e190be)
+- [DB入門資料](https://qiita.com/devopsCoordinator/items/9b70e506150888e190be)
+- [DBハンズオン練習問題](https://qiita.com/_hiro_dev/items/ece39759879c5d1f8536)
 - +1 [Indexとは](https://zenn.dev/suzuki_hoge/books/2022-12-database-index-9520da88d02c4f)
 
 ## Checkpoint3
