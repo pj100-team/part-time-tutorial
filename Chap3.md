@@ -67,6 +67,19 @@ JavaScriptに型がついた言語です。
 
 https://typescript-jp.gitbook.io/deep-dive/
 
+- [ ] [TypeScript入門 & 環境構築](https://typescript-jp.gitbook.io/deep-dive/getting-started)
+- [ ] [JavaScript](https://typescript-jp.gitbook.io/deep-dive/recap)
+- [ ] [モダンなJavaScriptの機能](https://typescript-jp.gitbook.io/deep-dive/recap)
+- [ ] [プロジェクトの環境設定](https://typescript-jp.gitbook.io/deep-dive/project)
+- [ ] [Node.js & TypeScriptのプロジェクト作成](https://typescript-jp.gitbook.io/deep-dive/nodejs)
+
+Classに関しては、Reactでほぼ使わないので、できなくても大丈夫です！
+ES6の文法で書くことが多いので、特に
+
+- Arrow関数
+- Spread演算子
+
+に関しては書けるようにしておきましょう。
 
 ## React
 
