@@ -97,6 +97,17 @@ Q3. Reactを使ってTODOアプリを作ってみてください。
 
 参考: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_todo_list_beginning
 
+※(注意事項)上記の参考サイトでは、チュートリアルの序盤で以下のように実行するよう指示があります。
+```
+cd src
+rm -- App.test.js App.css logo.svg reportWebVitals.js setupTests.js
+```
+しかし、実際にこれを実行するとアプリが機能しなくなる可能性があります。`reportWebVitals.js`と`App.css`は削除せず、まずは以下のように実行するのがオススメです。
+```
+cd src
+rm -- App.test.js logo.svg setupTests.js
+```
+
 ## 次のChapterを始める前に
 
 本リポジトリを`clone`して,改善点を見つけて`Pull Request`(以下、PRと省略)を出しましょう！
