@@ -17,7 +17,7 @@ git --version
 
 [公式ページ](https://learn.microsoft.com/ja-jp/windows/wsl/install)に従ってインストールして下さい。
 
-WSLはwsl2を使用してください。
+WSLはwsl2を使用してください
 
 使用するLinux環境はUbuntu 20.04 LTSを想定しています。
 
