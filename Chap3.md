@@ -4,7 +4,7 @@
 
 [Back to Previous Chapter](/Chap2.md)
 ## JavaScript
-チュートリアルを使って基本的な文法をマスターしていきましょう！
+チュートリアルを使って基本的な文法をマスターしていきましょう
 
 https://www.w3schools.com/js/
 
