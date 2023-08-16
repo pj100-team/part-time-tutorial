@@ -8,7 +8,7 @@
 
 https://www.w3schools.com/js/
 
-Classに関しては、Reactでほぼ使わないので、できなくても大丈夫です！
+Classに関しては、Reactでほぼ使わないので、できなくても大丈夫です！　
 ES6の文法で書くことが多いので、特に
 
 - Arrow関数
