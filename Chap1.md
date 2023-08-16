@@ -193,7 +193,7 @@ Hi (account名)! You've successfully authenticated, but GitHub does not provide 
 
 できない場合は、https://qiita.com/shizuma/items/2b2f873a0034839e47ceを参考にSSHで接続できるようにしましょう！
 
-Q3. `github`で、`https://docs.github.com/ja/get-started/quickstart/create-a-repo`を参考にしてリポジトリを作成しましょう。また、そのリポジトリに`README.md`を作成しましょう。
+Q3. `github`で、[こちらの記事](https://docs.github.com/ja/get-started/quickstart/create-a-repo)を参考にしてリポジトリを作成しましょう。また、そのリポジトリに`README.md`を作成しましょう。
 
 Q4. `Visual Studio Code`から、適当なテキストファイルを作成しましょう。
 [こちらの記事](`https://yzhums.com/751/`)を参考にして、Q3で作成したリポジトリにプッシュしましょう。
