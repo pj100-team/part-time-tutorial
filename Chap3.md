@@ -74,7 +74,7 @@ https://typescript-jp.gitbook.io/deep-dive/
 
 TypeScript初心者の方には、下記チュートリアルを１００％理解することは難しいので、大体2h~3h程度で軽く目を通しましょう。
 
-また、最低限 [こちらの記事]　https://typescript-jp.gitbook.io/deep-dive/type-systemで紹介されている型システムは把握しておきましょう。
+また、最低限[こちらの記事](https://typescript-jp.gitbook.io/deep-dive/type-system)で紹介されている型システムは把握しておきましょう。
 
 
 - [ ] [TypeScript入門 & 環境構築](https://typescript-jp.gitbook.io/deep-dive/getting-started)
