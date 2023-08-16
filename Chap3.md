@@ -67,10 +67,6 @@ JavaScriptに型がついた言語です。
 
 以下の資料はかなりボリュームがありますが、Reactの部分などは飛ばしましょう。
 
-
-
-
-
 https://typescript-jp.gitbook.io/deep-dive/
 
 
