@@ -107,7 +107,7 @@ Q3. `const array1 = [1, 4, 9, 16];`をmap関数を用いて、配列の値を3�
 
 参考: https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 
-Q4. 下記の関数をアロー関数に変更してください。
+Q4. 下記の関数をアロー関数を用いて書き直してください。
 
 ```
 [1, 2, 3].map(function (n) {
