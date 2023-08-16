@@ -196,7 +196,7 @@ Hi (account名)! You've successfully authenticated, but GitHub does not provide 
 Q3. `github`で、`https://docs.github.com/ja/get-started/quickstart/create-a-repo`を参考にしてリポジトリを作成しましょう。また、そのリポジトリに`README.md`を作成しましょう。
 
 Q4. `Visual Studio Code`から、適当なテキストファイルを作成しましょう。
-それを`https://yzhums.com/751/`を参考にして、Q3で作成したリポジトリにプッシュしましょう。
+[こちらの記事](`https://yzhums.com/751/`)を参考にして、Q3で作成したリポジトリにプッシュしましょう。
 
 `HTML` & `CSS`
 
