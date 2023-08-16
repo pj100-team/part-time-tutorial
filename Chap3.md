@@ -8,13 +8,15 @@
 
 https://www.w3schools.com/js/
 
-Classに関しては、Reactでほぼ使わないので、できなくても大丈夫です！
+Classに関しては、Reactでほぼ使わないので、できなくても大丈夫です！　
 ES6の文法で書くことが多いので、特に
 
 - Arrow関数
 - Spread演算子
 
 に関しては掛けるようにしておきましょう。
+
+チュートリアルを１００％理解することは難しいので、程々にして次に進みましょう。
 
 ## 環境構築
 フロントエンドの環境構築を行っていきます。
@@ -67,6 +69,14 @@ JavaScriptに型がついた言語です。
 
 https://typescript-jp.gitbook.io/deep-dive/
 
+
+
+
+TypeScript初心者の方には、下記チュートリアルを１００％理解することは難しいので、大体2h~3h程度で軽く目を通しましょう。
+
+また、最低限[こちらの記事](https://typescript-jp.gitbook.io/deep-dive/type-system)で紹介されている型システムは把握しておきましょう。
+
+
 - [ ] [TypeScript入門 & 環境構築](https://typescript-jp.gitbook.io/deep-dive/getting-started)
 - [ ] [JavaScript](https://typescript-jp.gitbook.io/deep-dive/recap)
 - [ ] [モダンなJavaScriptの機能](https://typescript-jp.gitbook.io/deep-dive/recap)
@@ -93,7 +103,19 @@ Q1. `async`, `await`, `Promise`について説明してください。
 
 Q2. `TypeScript`における、ジェネリクスとはどういうものでしょうか？
 
-Q3. Reactを使ってTODOアプリを作ってみてください。
+Q3. `const array1 = [1, 4, 9, 16];`をmap関数を用いて、配列の値を3倍にしてください。
+
+参考: https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+
+Q4. 下記の関数をアロー関数を用いて書き直してください。
+
+```
+[1, 2, 3].map(function (n) {
+  return n + 1;
+});
+```
+
+Q5. Reactを使ってTODOアプリを作ってみてください。
 
 参考: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_todo_list_beginning
 
