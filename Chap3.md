@@ -95,6 +95,7 @@ ES6の文法で書くことが多いので、特に
 
 https://react.dev/learn
 
+
 ## Checkpoint
 
 Q1. `async`, `await`, `Promise`について説明してください。
@@ -113,7 +114,12 @@ Q4. 下記の関数をアロー関数を用いて書き直してください。
 });
 ```
 
-Q5. Reactを使ってTODOアプリを作ってみてください。
+Q5. 以下の参考サイトに従い、React、TypeScriptを使って「いいねボタン」「猫画像ジェネレーター」を作ってみましょう。「ESLintでTypeScriptのコーディング規約チェックを自動化しよう」までやってみてください。
+
+参考：https://typescriptbook.jp/tutorials
+
+
+Q6. Reactを使ってTODOアプリを作ってみてください。
 
 参考: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_todo_list_beginning
 
