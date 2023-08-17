@@ -64,8 +64,16 @@ JavaScriptに型がついた言語です。
 - [boolean型 (論理型)](https://typescriptbook.jp/reference/values-types-variables/boolean)
 - [number型 (数値型)](https://typescriptbook.jp/reference/values-types-variables/number)
 - [string型 (文字列型)](https://typescriptbook.jp/reference/values-types-variables/string)
+- [配列の型注釈 (type annotation)](https://typescriptbook.jp/reference/values-types-variables/array/type-annotation-of-array)
+- [配列をループする方法](https://typescriptbook.jp/reference/values-types-variables/array/how-to-loop-an-array)
+- [配列のスプレッド構文「...」(spread syntax)](https://typescriptbook.jp/reference/values-types-variables/array/spread-syntax-for-array)
+- [アロー関数 (arrow function)](https://typescriptbook.jp/reference/functions/arrow-functions)
+- [戻り値がない関数とvoid型 (void type)](https://typescriptbook.jp/reference/functions/void-type)
+- [Promise<T>](https://typescriptbook.jp/reference/asynchronous/promise)
+- [async](https://typescriptbook.jp/reference/asynchronous/async)
+- [await](https://typescriptbook.jp/reference/asynchronous/await)
 
-TODO: @武田 項目を上のように抜き出して羅列してほしい。
+
 
 チュートリアルを１００％理解することは難しいので、程々にして次に進みましょう。
 
