@@ -3,20 +3,7 @@
 [Back to README](/README.md)
 
 [Back to Previous Chapter](/Chap2.md)
-## JavaScript
-チュートリアルを使って基本的な文法をマスターしていきましょう！
 
-https://www.w3schools.com/js/
-
-Classに関しては、Reactでほぼ使わないので、できなくても大丈夫です！　
-ES6の文法で書くことが多いので、特に
-
-- Arrow関数
-- Spread演算子
-
-に関しては掛けるようにしておきましょう。
-
-チュートリアルを１００％理解することは難しいので、程々にして次に進みましょう。
 
 ## 環境構築
 フロントエンドの環境構築を行っていきます。
@@ -39,7 +26,7 @@ volta --version
 
 のような文字列が表示されればOKです！
 
-voltaを使用して、nodeの最新版をインストールしておきましょう。
+voltaを使用して、nodeをインストールしておきましょう。
 今回は16系のnodeを使用します。
 
 ```
@@ -65,11 +52,22 @@ v16.20.0
 JavaScriptに型がついた言語です。
 普段の開発ではTypeScriptを使用することが多いので、マスターしましょう！
 
-以下の資料はかなりボリュームがありますが、Reactの部分などは飛ばしましょう。
+まず初めにTypeScriptの基本的な文法を以下の資料を読んで理解しましょう。
 
-https://typescript-jp.gitbook.io/deep-dive/
+[読んで学ぶTypeScript](https://typescriptbook.jp/reference)
 
+初心者が理解しておくべき点は以下の項目です。
 
+- [変数宣言: letとconst](https://typescriptbook.jp/reference/values-types-variables/let-and-const)
+- [varはもう使わない](https://typescriptbook.jp/reference/values-types-variables/vars-problems)
+- [変数宣言の型推論](https://typescriptbook.jp/reference/values-types-variables/type-inference)
+- [boolean型 (論理型)](https://typescriptbook.jp/reference/values-types-variables/boolean)
+- [number型 (数値型)](https://typescriptbook.jp/reference/values-types-variables/number)
+- [string型 (文字列型)](https://typescriptbook.jp/reference/values-types-variables/string)
+
+TODO: @武田 項目を上のように抜き出して羅列してほしい。
+
+チュートリアルを１００％理解することは難しいので、程々にして次に進みましょう。
 
 
 TypeScript初心者の方には、下記チュートリアルを１００％理解することは難しいので、大体2h~3h程度で軽く目を通しましょう。
