@@ -139,7 +139,21 @@ https://qiita.com/TakumaKurosawa/items/79a75026327d8deb9c04
 
 Web開発を行う基本となるHTMLとCSSについて学んで行きましょう！
 
+以下の資料のCSS上級編を除いた
+
+[HTML](https://web-design-textbook.com/html-textbook.html) ~ [Web制作中級編](https://web-design-textbook.com/makepage-middle.html)
+
+を行いましょう！
+
 [Webデザインの教科書](https://web-design-textbook.com/)
+
+## DevTools
+
+Web開発を行う上で強力なツールとなるWebブラウザの開発者ツールについて学んでいきましょう。
+
+https://willcloud.jp/knowhow/dev-tools-01/
+
+上記の資料でHTML＆CSSの挙動を確認できるようにしましょう。
 
 
 
@@ -201,6 +215,8 @@ Q4. `Visual Studio Code`から、適当なテキストファイルを作成し�
 `HTML` & `CSS`
 
 Q1. 簡単なTODOListを作ってみましょう。[ここ](https://www.w3schools.com/howto/howto_js_todolist.asp)に記載されている通りで、JavaScriptはまだやらなくても大丈夫です！見た目だけ再現できるようにしましょう！
+
+Q2. 開発者ツールを使用して、作成したTODOリストのpaddingやmerginが正しく設定されているかを確認しましょう。
 
 ## 次のChapterを始める前に
 
