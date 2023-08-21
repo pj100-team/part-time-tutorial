@@ -109,6 +109,12 @@ https://www.tohoho-web.com/python/
 
 https://lemon818.com/python-class/
 
+またPythonのデバッガPDBを使えるようにしましょう！
+
+https://qiita.com/kaitolucifer/items/dc58efebd72d72a8feb2
+
+上述の記事でPDBの基本的な使用方法が説明されています。
+
 ## Checkpoint2
 
 Q1. Checkpoint1で作成したプロジェクトに、`fizzbuzz.py`というファイルを作成して、以下の仕様を満たすプログラムを書いてみてください。
@@ -155,9 +161,11 @@ Traceback (most recent call last):
 ValueError("hoge is invalid input!")
 ```
 
-Q2. Classを使ったなんかいい課題を教えて下さい(help!)
+Q2. pdbを使って、作成した処理で`N`の値を確認しましょう。
 
-Q3. is-a関係とhas-a関係の違いは？
+Q3. Classを使ったなんかいい課題を教えて下さい(help!)
+
+Q4. is-a関係とhas-a関係の違いは？
 
 
 ## DB
