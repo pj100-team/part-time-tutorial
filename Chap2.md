@@ -74,6 +74,12 @@ pyenv -v
 curl -sSL https://install.python-poetry.org | python3 -
 ```
 
+それでもうまくインストールできない場合はHomebrewを使ってPoetryをインストールしてみてください。
+
+```
+brew install poetry
+```
+
 ```
 poetry --version
 ```
@@ -108,6 +114,9 @@ https://www.tohoho-web.com/python/
 `Class`についてよくわからない場合は以下のサイトを参考にしてみてください！
 
 https://lemon818.com/python-class/
+
+【動画】
+https://www.youtube.com/watch?v=F5guF1y7G48
 
 またPythonのデバッガPDBを使えるようにしましょう！
 
