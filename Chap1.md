@@ -96,21 +96,22 @@ git --version
 結果として`git version 2.25.1`のような文字列が表示されたら、キホンの環境構築はOKです！
 
 
-## Linuxのキホンのキ
+## Linuxコマンドのキホンのキ
 
 続いて、Linuxコマンドの使い方を学習していきます。(MacOSでも大体一緒です！)
 まず最初にLinuxのキホンについて以下のブログにまとまっているので見てみると良いと思います！
+(Linuxの環境構築ではなく、コマンドを中心に学習すると良いです！)
 
 https://eng-entrance.com/category/linux/linux-basic
 
 続いて、Shell(コマンドを打つ黒い画面)を通じて、ファイル作成や編集といった様々な操作をできるようになりましょう！
-以下の漫画がわかりやすく解説されているので、読んでください！
+以下の漫画でわかりやすく解説されているので、読んでください！
 
 https://xtech.nikkei.com/atcl/learning/column/19/00014/
 
 ## エディタ
 ### Visual Studio Code
-使い慣れたエディタ・IDEがあればそれをお使いいただいて結構ですが、VIsual Studio Codeの方が圧倒的に評価が高いのでおすすめです。
+使い慣れたエディタ・IDEがあればそれをお使いいただいて結構ですが、Visual Studio Codeが圧倒的に評価が高いのでおすすめです。
 [Visual Studio Code 公式ページ](https://code.visualstudio.com/)
 
 日本語化もしておきましょう。
@@ -123,7 +124,7 @@ https://xtech.nikkei.com/atcl/learning/column/19/00014/
 
 続いて、`git`について勉強します。エンジニアとして、働く以上`git`を避けては通れません！
 
-まず以下の資料で`git`の意味と使い方の基礎を学びましょう
+まず以下の資料で`git`の意味と使い方の基礎を学びましょう。
 
 https://backlog.com/ja/git-tutorial/
 
