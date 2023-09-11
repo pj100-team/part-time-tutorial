@@ -126,7 +126,7 @@ https://xtech.nikkei.com/atcl/learning/column/19/00014/
 
 まず以下の資料で`git`の意味と使い方の基礎を学びましょう。
 
-<a target="_blank" href="https://backlog.com/ja/git-tutorial/">サル先生のGit入門</a>
+<a href="https://backlog.com/ja/git-tutorial/" target="_blank">サル先生のGit入門</a>
 
 入門編、発展編、プルリクエスト編の全てに目を通しましょう。
 
