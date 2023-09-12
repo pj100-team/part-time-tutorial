@@ -49,14 +49,15 @@ v16.20.0
 
 ## TypeScript
 
-JavaScriptに型がついた言語です。
+TypeScript(TS)とは、JavaScriptに型がついた言語です。
 普段の開発ではTypeScriptを使用することが多いので、マスターしましょう！
 
-まず初めにTypeScriptの基本的な文法を以下の資料を読んで理解しましょう。
+### TypeScriptチュートリアル①
+TypeScriptの基本的な文法を以下の資料を読んで理解しましょう。
 
 [読んで学ぶTypeScript](https://typescriptbook.jp/reference)
 
-初心者が理解しておくべき点は以下の項目です。
+中でも、初心者が理解しておくべき点は以下のページです。
 
 - [変数宣言: letとconst](https://typescriptbook.jp/reference/values-types-variables/let-and-const)
 - [varはもう使わない](https://typescriptbook.jp/reference/values-types-variables/vars-problems)
@@ -64,15 +65,22 @@ JavaScriptに型がついた言語です。
 - [boolean型 (論理型)](https://typescriptbook.jp/reference/values-types-variables/boolean)
 - [number型 (数値型)](https://typescriptbook.jp/reference/values-types-variables/number)
 - [string型 (文字列型)](https://typescriptbook.jp/reference/values-types-variables/string)
+- [配列の型注釈 (type annotation)](https://typescriptbook.jp/reference/values-types-variables/array/type-annotation-of-array)
+- [配列をループする方法](https://typescriptbook.jp/reference/values-types-variables/array/how-to-loop-an-array)
+- [配列のスプレッド構文「...」(spread syntax)](https://typescriptbook.jp/reference/values-types-variables/array/spread-syntax-for-array)
+- [アロー関数 (arrow function)](https://typescriptbook.jp/reference/functions/arrow-functions)
+- [戻り値がない関数とvoid型 (void type)](https://typescriptbook.jp/reference/functions/void-type)
+- [Promise<T>](https://typescriptbook.jp/reference/asynchronous/promise)
+- [async](https://typescriptbook.jp/reference/asynchronous/async)
+- [await](https://typescriptbook.jp/reference/asynchronous/await)
 
-TODO: @武田 項目を上のように抜き出して羅列してほしい。
+チュートリアルを100％理解することは難しいので、程々にして次に進みましょう。
 
-チュートリアルを１００％理解することは難しいので、程々にして次に進みましょう。
+### TypeScriptチュートリアル②
 
+上のチュートリアルで、TypeScriptのおおまかなルールを理解できたかと思います。
 
-TypeScript初心者の方には、下記チュートリアルを１００％理解することは難しいので、大体2h~3h程度で軽く目を通しましょう。
-
-また、最低限[こちらの記事](https://typescript-jp.gitbook.io/deep-dive/type-system)で紹介されている型システムは把握しておきましょう。
+ここでは改めて、[こちらの記事](https://typescript-jp.gitbook.io/deep-dive/type-system)で紹介されている型システムを把握できているか、確認してみましょう。
 
 
 - [ ] [TypeScript入門 & 環境構築](https://typescript-jp.gitbook.io/deep-dive/getting-started)
@@ -88,6 +96,7 @@ ES6の文法で書くことが多いので、特に
 - Spread演算子
 
 に関しては書けるようにしておきましょう。
+
 
 ## React
 
@@ -114,9 +123,14 @@ Q4. 下記の関数をアロー関数を用いて書き直してください。
 });
 ```
 
-Q5. 以下の参考サイトに従い、React、TypeScriptを使って「いいねボタン」「猫画像ジェネレーター」を作ってみましょう。「ESLintでTypeScriptのコーディング規約チェックを自動化しよう」までやってみてください。
+Q5. [こちらの参考サイト](https://typescriptbook.jp/tutorials)に従い、React、TypeScriptを使ってプロジェクトを作ってみましょう。以下のページのみ、上から順番に学習してください。
 
-参考：https://typescriptbook.jp/tutorials
+- [開発環境の準備](https://typescriptbook.jp/tutorials/setup)
+- [簡単な関数を作ってみよう](https://typescriptbook.jp/tutorials/make-a-simple-function-via-cli)
+- [Reactでいいねボタンを作ろう](https://typescriptbook.jp/tutorials/react-like-button-tutorial)
+- [Vercelにデプロイしてみよう](https://typescriptbook.jp/tutorials/vercel-deploy)
+- [Prettierでコード整形を自動化しよう](https://typescriptbook.jp/tutorials/prettier)
+- [ESLintでTypeScriptのコーディング規約チェックを自動化しよう](https://typescriptbook.jp/tutorials/eslint)
 
 
 Q6. Reactを使ってTODOアプリを作ってみてください。
