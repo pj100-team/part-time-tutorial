@@ -95,7 +95,7 @@ ES6の文法で書くことが多いので、特に
 
 https://react.dev/learn
 
-#react-v3
+## react-v3
 
 ある程度Reactについて理解が深まってきたら実際に練習してみましょう！！
 
