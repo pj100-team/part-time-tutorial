@@ -73,7 +73,9 @@ brew install git
 git --version
 ```
 
-結果として`git version 2.30.1 (Apple Git-130)`のような文字列が表示されたら、キホンの環境構築はOKです！
+この時、`git version 2.30.1`のような文字列のあとに`(Apple Git-130)`などといった文字列が表示されている場合は、Homebrewでインストールしたgitではなく、Macにデフォルトで入っているgitが使われています。
+そのため、HomebrewでインストールしたGitにパスを通す必要があります。
+結果として`git version 2.42.0`のような文字列が表示されたら、キホンの環境構築はOKです！
 
 ### Linux
 
