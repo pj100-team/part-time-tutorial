@@ -49,14 +49,15 @@ v16.20.0
 
 ## TypeScript
 
-JavaScriptに型がついた言語です。
+TypeScript(TS)とは、JavaScriptに型がついた言語です。
 普段の開発ではTypeScriptを使用することが多いので、マスターしましょう！
 
-まず初めにTypeScriptの基本的な文法を以下の資料を読んで理解しましょう。
+### TypeScriptチュートリアル①
+TypeScriptの基本的な文法を以下の資料を読んで理解しましょう。
 
 [読んで学ぶTypeScript](https://typescriptbook.jp/reference)
 
-初心者が理解しておくべき点は以下の項目です。
+中でも、初心者が理解しておくべき点は以下のページです。
 
 - [変数宣言: letとconst](https://typescriptbook.jp/reference/values-types-variables/let-and-const)
 - [varはもう使わない](https://typescriptbook.jp/reference/values-types-variables/vars-problems)
@@ -73,14 +74,13 @@ JavaScriptに型がついた言語です。
 - [async](https://typescriptbook.jp/reference/asynchronous/async)
 - [await](https://typescriptbook.jp/reference/asynchronous/await)
 
+チュートリアルを100％理解することは難しいので、程々にして次に進みましょう。
 
+### TypeScriptチュートリアル②
 
-チュートリアルを１００％理解することは難しいので、程々にして次に進みましょう。
+上のチュートリアルで、TypeScriptのおおまかなルールを理解できたかと思います。
 
-
-TypeScript初心者の方には、下記チュートリアルを１００％理解することは難しいので、大体2h~3h程度で軽く目を通しましょう。
-
-また、最低限[こちらの記事](https://typescript-jp.gitbook.io/deep-dive/type-system)で紹介されている型システムは把握しておきましょう。
+ここでは改めて、[こちらの記事](https://typescript-jp.gitbook.io/deep-dive/type-system)で紹介されている型システムを把握できているか、確認してみましょう。
 
 
 - [ ] [TypeScript入門 & 環境構築](https://typescript-jp.gitbook.io/deep-dive/getting-started)
@@ -97,11 +97,19 @@ ES6の文法で書くことが多いので、特に
 
 に関しては書けるようにしておきましょう。
 
+
 ## React
 
 いよいよReactを勉強していきます！公式が一番わかりやすく、非常によくまとまっているのでやっていきましょう！
 
 https://react.dev/learn
+
+## react-v3
+
+ある程度Reactについて理解が深まってきたら実際に練習してみましょう！！
+
+https://github.com/pj100-team/react-v3
+
 
 ## Checkpoint
 
@@ -121,7 +129,17 @@ Q4. 下記の関数をアロー関数を用いて書き直してください。
 });
 ```
 
-Q5. Reactを使ってTODOアプリを作ってみてください。
+Q5. [こちらの参考サイト](https://typescriptbook.jp/tutorials)に従い、React、TypeScriptを使ってプロジェクトを作ってみましょう。以下のページのみ、上から順番に学習してください。
+
+- [開発環境の準備](https://typescriptbook.jp/tutorials/setup)
+- [簡単な関数を作ってみよう](https://typescriptbook.jp/tutorials/make-a-simple-function-via-cli)
+- [Reactでいいねボタンを作ろう](https://typescriptbook.jp/tutorials/react-like-button-tutorial)
+- [Vercelにデプロイしてみよう](https://typescriptbook.jp/tutorials/vercel-deploy)
+- [Prettierでコード整形を自動化しよう](https://typescriptbook.jp/tutorials/prettier)
+- [ESLintでTypeScriptのコーディング規約チェックを自動化しよう](https://typescriptbook.jp/tutorials/eslint)
+
+
+Q6. Reactを使ってTODOアプリを作ってみてください。
 
 参考: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_todo_list_beginning
 

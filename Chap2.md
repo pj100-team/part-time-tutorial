@@ -74,6 +74,12 @@ pyenv -v
 curl -sSL https://install.python-poetry.org | python3 -
 ```
 
+それでもうまくインストールできない場合はHomebrewを使ってPoetryをインストールしてみてください。
+
+```
+brew install poetry
+```
+
 ```
 poetry --version
 ```
@@ -108,6 +114,15 @@ https://www.tohoho-web.com/python/
 `Class`についてよくわからない場合は以下のサイトを参考にしてみてください！
 
 https://lemon818.com/python-class/
+
+【動画】
+https://www.youtube.com/watch?v=F5guF1y7G48
+
+またPythonのデバッガPDBを使えるようにしましょう！
+
+https://qiita.com/kaitolucifer/items/dc58efebd72d72a8feb2
+
+上述の記事でPDBの基本的な使用方法が説明されています。
 
 ## Checkpoint2
 
@@ -155,9 +170,11 @@ Traceback (most recent call last):
 ValueError("hoge is invalid input!")
 ```
 
-Q2. Classを使ったなんかいい課題を教えて下さい(help!)
+Q2. pdbを使って、作成した処理で`N`の値を確認しましょう。
 
-Q3. is-a関係とhas-a関係の違いは？
+Q3. Classを使ったなんかいい課題を教えて下さい(help!)
+
+Q4. is-a関係とhas-a関係の違いは？
 
 
 ## DB

@@ -96,21 +96,22 @@ git --version
 結果として`git version 2.25.1`のような文字列が表示されたら、キホンの環境構築はOKです！
 
 
-## Linuxのキホンのキ
+## Linuxコマンドのキホンのキ
 
 続いて、Linuxコマンドの使い方を学習していきます。(MacOSでも大体一緒です！)
 まず最初にLinuxのキホンについて以下のブログにまとまっているので見てみると良いと思います！
+(Linuxの環境構築ではなく、コマンドを中心に学習すると良いです！)
 
 https://eng-entrance.com/category/linux/linux-basic
 
 続いて、Shell(コマンドを打つ黒い画面)を通じて、ファイル作成や編集といった様々な操作をできるようになりましょう！
-以下の漫画がわかりやすく解説されているので、読んでください！
+以下の漫画でわかりやすく解説されているので、読んでください！
 
 https://xtech.nikkei.com/atcl/learning/column/19/00014/
 
 ## エディタ
 ### Visual Studio Code
-使い慣れたエディタ・IDEがあればそれをお使いいただいて結構ですが、VIsual Studio Codeの方が圧倒的に評価が高いのでおすすめです。
+使い慣れたエディタ・IDEがあればそれをお使いいただいて結構ですが、Visual Studio Codeが圧倒的に評価が高いのでおすすめです。
 [Visual Studio Code 公式ページ](https://code.visualstudio.com/)
 
 日本語化もしておきましょう。
@@ -123,9 +124,9 @@ https://xtech.nikkei.com/atcl/learning/column/19/00014/
 
 続いて、`git`について勉強します。エンジニアとして、働く以上`git`を避けては通れません！
 
-まず以下の資料で`git`の意味と使い方の基礎を学びましょう
+まず以下の資料で`git`の意味と使い方の基礎を学びましょう。
 
-https://backlog.com/ja/git-tutorial/
+<a href="https://backlog.com/ja/git-tutorial/" target="_blank">サル先生のGit入門</a>
 
 入門編、発展編、プルリクエスト編の全てに目を通しましょう。
 
@@ -139,7 +140,21 @@ https://qiita.com/TakumaKurosawa/items/79a75026327d8deb9c04
 
 Web開発を行う基本となるHTMLとCSSについて学んで行きましょう！
 
+以下の資料のCSS上級編を除いた
+
+[HTML](https://web-design-textbook.com/html-textbook.html) ~ [Web制作中級編](https://web-design-textbook.com/makepage-middle.html)
+
+を行いましょう！
+
 [Webデザインの教科書](https://web-design-textbook.com/)
+
+## DevTools
+
+Web開発を行う上で強力なツールとなるWebブラウザの開発者ツールについて学んでいきましょう。
+
+https://willcloud.jp/knowhow/dev-tools-01/
+
+上記の資料でHTML＆CSSの挙動を確認できるようにしましょう。
 
 
 
@@ -201,6 +216,8 @@ Q4. `Visual Studio Code`から、適当なテキストファイルを作成し�
 `HTML` & `CSS`
 
 Q1. 簡単なTODOListを作ってみましょう。[ここ](https://www.w3schools.com/howto/howto_js_todolist.asp)に記載されている通りで、JavaScriptはまだやらなくても大丈夫です！見た目だけ再現できるようにしましょう！
+
+Q2. 開発者ツールを使用して、作成したTODOリストのpaddingやmerginが正しく設定されているかを確認しましょう。
 
 ## 次のChapterを始める前に
 
