@@ -134,19 +134,17 @@ https://xtech.nikkei.com/atcl/learning/column/19/00014/
 
 https://qiita.com/TakumaKurosawa/items/79a75026327d8deb9c04
 
-また、`git`や`github`の操作をVS Code上で完結させることもできます。
+また、`git`や`github`の操作をVS Code上で完結させることもできます。以下の拡張機能を使うと`git`周りの操作がかなり快適になります。
 
 - [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 - [GitHub Pull Requests](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
 
-これらの拡張機能を使うと`git`周りの操作がかなり快適になります。
+使い方については、ここらへんのサイトが参考になると思います。
 
 - [VScodeだけでGit操作を完結させるのだ～～ッ!!
 ](https://zenn.dev/praha/articles/db1c4bcc4ef48c)
 - [Visual Studio CodeとGitHubを用いたGitバージョン管理方法](https://qiita.com/Nemoto_N/items/2061b3bfa14099d7623c)
-
-使い方については、ここらへんのサイトが参考になると思います。
 
 ## HTML & CSS
 
