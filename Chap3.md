@@ -129,30 +129,6 @@ Q4. 下記の関数をアロー関数を用いて書き直してください。
 });
 ```
 
-Q5. [こちらの参考サイト](https://typescriptbook.jp/tutorials)に従い、React、TypeScriptを使ってプロジェクトを作ってみましょう。以下のページのみ、上から順番に学習してください。
-
-- [開発環境の準備](https://typescriptbook.jp/tutorials/setup)
-- [簡単な関数を作ってみよう](https://typescriptbook.jp/tutorials/make-a-simple-function-via-cli)
-- [Reactでいいねボタンを作ろう](https://typescriptbook.jp/tutorials/react-like-button-tutorial)
-- [Vercelにデプロイしてみよう](https://typescriptbook.jp/tutorials/vercel-deploy)
-- [Prettierでコード整形を自動化しよう](https://typescriptbook.jp/tutorials/prettier)
-- [ESLintでTypeScriptのコーディング規約チェックを自動化しよう](https://typescriptbook.jp/tutorials/eslint)
-
-
-Q6. Reactを使ってTODOアプリを作ってみてください。
-
-参考: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_todo_list_beginning
-
-※(注意事項)上記の参考サイトでは、チュートリアルの序盤で以下のように実行するよう指示があります。
-```
-cd src
-rm -- App.test.js App.css logo.svg reportWebVitals.js setupTests.js
-```
-しかし、実際にこれを実行するとアプリが機能しなくなる可能性があります。`reportWebVitals.js`と`App.css`は削除せず、まずは以下のように実行するのがオススメです。
-```
-cd src
-rm -- App.test.js logo.svg setupTests.js
-```
 
 ## 次のChapterを始める前に
 
