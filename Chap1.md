@@ -45,7 +45,7 @@ git --version
 
 Homebrew と呼ばれるパッケージ管理ツールをインストールしましょう。
 
-https://brew.sh/index_ja
+https://brew.sh/
 
 インストールできたら、以下のコマンドを打って見ましょう。
 
