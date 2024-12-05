@@ -147,7 +147,7 @@ Web 開発を行う基本となる HTML と CSS について学んで行きま�
 
 を行いましょう！
 
-[Web デザインの教科書](https://web-design-textbook.com/)
+サイトのトップページ[Web デザインの教科書](https://web-design-textbook.com/)
 
 ## DevTools
 
