@@ -4,7 +4,7 @@
 
 [Back to Previous Chapter](/Chap1.md)
 ## プログラミング言語とは
-最初にプログラミング言語がどういう物なのかを体験するために以下のページで簡単にPython(無料部分のみ)を触って見ましょう！
+最初にプログラミング言語がどういう物なのかを体験するために以下のページで簡単にPython(無料部分のみ)を触って見ましょう！ \\
 [Pythonって何](https://prog-8.com/lessons/python/study/1)
 
 ## 環境構築
@@ -184,14 +184,14 @@ Q4. is-a関係とhas-a関係の違いは？
 ## DB
 Webアプリケーションにおけるデータを保管するデータベース(以下DB)について勉強していきましょう。
 
-実際のWebアプリケーションではORM(Object Relation Mapping)と呼ばれるDBを抽象化(細かい操作は見えなくして簡単に扱えるようにすること)したライブラリが使われます。これによりSQL文を書かなくても、例えばPythonのDjangoフレームワークだと`.save`や`.delete`のようにまるで関数のように扱うことができます。つまり一々`INSERT INTO`や`UPDATE`のような長い命令を下さなくてもPythonの関数の様に書けるので便利なのです。
+実際のWebアプリケーションではORM(Object Relation Mapping)と呼ばれるDBを抽象化(細かい操作は見えなくして簡単に扱えるようにすること)したライブラリが使われます。これによりSQL文を書かなくても、例えばPythonのDjangoフレームワークだと`.save`や`.delete`のような関数みたいに扱うことができます。つまり、いちいち`INSERT INTO`や`UPDATE`のような長い命令を下さなくてもPythonの関数の様に書けるので便利なのです。
 
 しかし、実際のサービスではORMしか知らないと、N+1問題やクエリの実行計画を見れないなどのWebアプリケーションのパフォーマンスを十分なものにすることはできません。
 
 そこで、まず最初はDBとはどういうものか、そしてDBを操るSQLとはどういったものなのかをさらっと理解しておきましょう。
 以下のDB入門(応用は興味があれば)、SQL入門の記事に目を通してください。
 実際のDBにどのようなものがあるかを知るために、DBエンジンの種類に関しての記事を追加しました。
-また、terminalでDBのテーブルを参照して実際に登録されている実感が湧かないため、
+また、terminalでDBのテーブルを参照して実際に登録されている実感が湧かないため、視覚的に見れるツールDBeaverについても説明追加しました。
 
 - [DB入門](https://qiita.com/higasun/items/0767107dc7100a60f4e4)
   - [DBエンジンの種類](https://zenn.dev/lisras/articles/5ca8dfb5c26e81)
@@ -202,7 +202,7 @@ Webアプリケーションにおけるデータを保管するデータベー�
   - [応用:データベース設計](https://qiita.com/KNR109/items/5d4a1954f3e8fd8eaae7)
   - [応用:Cloud上でのDB(AWS Amazon Aurora)](https://business.ntt-east.co.jp/content/cloudsolution/column-71.html)
 - [SQL入門(Progate)](https://prog-8.com/courses/sql)
-  - +1 [適切なIndexを張るために](https://qiita.com/kodai-saito/items/541e4fe46c2d3edc9634)
+  - [応用:適切なIndexを張るために](https://qiita.com/kodai-saito/items/541e4fe46c2d3edc9634)
 
 ## Checkpoint3
 
@@ -221,8 +221,8 @@ https://note.com/nmt_rootassist/n/nf70b6e73f673
 
 いよいよWebアプリケーションのバックエンドを開発していきます！
 
-まずはPythonのフレームワークであるDjango(Web開発のためのPython)の公式のチュートリアルやドキュメントを読んでみましょう！
-https://docs.djangoproject.com/ja/5.1/
+まずはPythonのフレームワークであるDjango(Web開発のためのPython)の公式のチュートリアルやドキュメントを読んでみましょう！ \\
+https://docs.djangoproject.com/ja/5.1/ \\
 最初にDjangoを自分のPCに[インストール](https://docs.djangoproject.com/ja/5.1/intro/install/)して、
 [チュートリアル](https://docs.djangoproject.com/ja/5.1/intro/tutorial01/)
 のその7まで読みながら実行しましょう！
@@ -230,7 +230,6 @@ https://docs.djangoproject.com/ja/5.1/
 ちなみにこれからライブラリやフレームワークという言葉が多用されますが、どちらもよく使われる機能を実装して、その機能を毎回ゼロからコードで書かなくても良いように準備された便利なファイルです！
 - [ライブラリ](https://wa3.i-3-i.info/word1473.html)
 - [ライブラリとフレームワークの違い](https://wa3.i-3-i.info/diff1146programming.html)
-
 
 ## Checkpoint4
 
