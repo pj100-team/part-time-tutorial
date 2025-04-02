@@ -4,7 +4,7 @@
 
 [Back to Previous Chapter](/Chap1.md)
 ## プログラミング言語とは
-最初にプログラミング言語がどういう物なのかを体験するために以下のページで簡単にPython(無料部分のみ)を触って見ましょう！ \\
+最初にプログラミング言語がどういう物なのかを体験するために以下のページで簡単にPython(無料部分のみ)を触って見ましょう!  
 [Pythonって何](https://prog-8.com/lessons/python/study/1)
 
 ## 環境構築
@@ -221,8 +221,8 @@ https://note.com/nmt_rootassist/n/nf70b6e73f673
 
 いよいよWebアプリケーションのバックエンドを開発していきます！
 
-まずはPythonのフレームワークであるDjango(Web開発のためのPython)の公式のチュートリアルやドキュメントを読んでみましょう！ \\
-https://docs.djangoproject.com/ja/5.1/ \\
+まずはPythonのフレームワークであるDjango(Web開発のためのPython)の公式のチュートリアルやドキュメントを読んでみましょう！  
+https://docs.djangoproject.com/ja/5.1/  
 最初にDjangoを自分のPCに[インストール](https://docs.djangoproject.com/ja/5.1/intro/install/)して、
 [チュートリアル](https://docs.djangoproject.com/ja/5.1/intro/tutorial01/)
 のその7まで読みながら実行しましょう！
