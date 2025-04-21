@@ -104,7 +104,7 @@ ES6の文法で書くことが多いので、特に
 
 https://react.dev/learn
 
-- [] [日本語版](https://ja.react.dev/learn)
+[日本語版](https://ja.react.dev/learn)
 
 
 ## Checkpoint
