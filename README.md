@@ -28,10 +28,11 @@
 
 ## [Chap2. Backend](/Chap2.md)
 
+- プログラミング言語とは
 - 環境構築
 - Python
 - DB
-- FastAPI
+- Django
 
 ## [Chap3. Frontend](/Chap3.md)
 
@@ -56,5 +57,3 @@
 - CI/CD(github actions)
 - 暗号とセキュリティ
 - パフォーマンス・チューニング
-
-
