@@ -268,12 +268,14 @@ Q2 Django REST Framework 課題：TODO一覧APIを作ってみよう！
 ## 🎯 目標
 - `/api/todos/` にアクセスすると、TODOの一覧が JSON 形式で返ってくるAPIを作成してみましょう！まずは下記の説明を見ずにAPIを作成しましょう！
 
-下記説明詳細タグ
 <details>
+<summary>📝 ステップバイステップ解説（解答の一例を見たい場合はこちら）</summary>
 
 ## 🪜 ステップバイステップ解説
 
-### ① モデルを作成
+### ① モデルとテストデータを作成
+
+モデルの作成
 
 ```python
 # todos/models.py
@@ -286,11 +288,30 @@ class Todo(models.Model):
     def __str__(self):
         return self.title
 ```
+テストデータの作成
+
+下記でDjangoシェルを開く
+```
+python manage.py shell
+```
+
+下記でTodoデータを入れる
+```
+from todos.models import Todo
+Todo.objects.create(title="牛乳を買う", is_done=False)
+Todo.objects.create(title="DRF課題を終わらせる", is_done=True)
+
+```
+
+
 
 ### ② マイグレーションの実行
-
+```
 python manage.py makemigrations
+```
+```
 python manage.py migrate
+```
 
 ### ③　シリアライザを作成
 ```python
@@ -344,6 +365,10 @@ urlpatterns = [
 ### 確認方法
 python manage.py runserverでサーバーを起動し、http://localhost:8000/api/todos/
 でTODOの一覧が表示されれば成功です。
+
+## 🧠 おまけ課題（余力があれば挑戦！）
+
+- `POST /api/todos/`：TODOを新しく登録するエンドポイントを追加してみましょう。
 
 
 
