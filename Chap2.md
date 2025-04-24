@@ -4,6 +4,11 @@
 
 [Back to Previous Chapter](/Chap1.md)
 
+## 学び方のポイント
+
+- 分からない単語があっても **「読み飛ばしてOK」**。
+- 実際に動かして「理解すること」が最優先。
+- まずは完走、あとで復習！のスタンスで取り組みましょう 💪
 
 
 ## <font color="Coral">WEB開発における語彙のキャッチアップ</font>
@@ -258,11 +263,88 @@ Q1. 以下の単語はどのような意味か説明してください。
 9. HTTPとHTTPSの違い
 10. リクエストボディとリクエストヘッダ
 
-Q2. 以下のサイトを参考にTODOアプリのエンドポイントを作ってみてください。
+Q2 Django REST Framework 課題：TODO一覧APIを作ってみよう！
 
-環境は、Checkpoint1で作成した環境を使用してください。ライブラリ管理は`pip`ではなく、`poetry`を使用してください！
+## 🎯 目標
+- `/api/todos/` にアクセスすると、TODOの一覧が JSON 形式で返ってくるAPIを作成してみましょう！まずは下記の説明を見ずにAPIを作成しましょう！
 
-https://dev.to/nditah/develop-a-simple-python-fastapi-todo-app-in-1-minute-8dg
+<details>
+
+## 🪜 ステップバイステップ解説
+
+### ① モデルを作成
+
+```python
+# todos/models.py
+from django.db import models
+
+class Todo(models.Model):
+    title = models.CharField(max_length=100)
+    is_done = models.BooleanField(default=False)
+
+    def __str__(self):
+        return self.title
+```
+
+### ② マイグレーションの実行
+
+python manage.py makemigrations
+python manage.py migrate
+
+### ③　シリアライザを作成
+```python
+# todos/serializers.py
+from rest_framework import serializers
+from .models import Todo
+
+class TodoSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Todo
+        fields = '__all__'
+```
+### ④ ビューを作成
+```python
+# todos/views.py
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from .models import Todo
+from .serializers import TodoSerializer
+
+class TodoListView(APIView):
+    def get(self, request):
+        todos = Todo.objects.all()
+        serializer = TodoSerializer(todos, many=True)
+        return Response(serializer.data)
+
+```
+### ⑤ URLを設定
+```python
+# todos/urls.py
+from django.urls import path
+from .views import TodoListView
+
+urlpatterns = [
+    path('todos/', TodoListView.as_view()),
+]
+
+# config/urls.py（プロジェクト直下）
+from django.contrib import admin
+from django.urls import path, include
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('api/', include('todos.urls')),
+]
+
+```
+
+</details>
+
+### 確認方法
+python manage.py runserverでサーバーを起動し、http://localhost:8000/api/todos/
+でTODOの一覧が表示されれば成功です。
+
+
 
 ## 次のChapterを始める前に
 
