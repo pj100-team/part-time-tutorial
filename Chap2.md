@@ -214,8 +214,6 @@ Webアプリケーションにおけるデータを保管するデータベー�
   - [DB用語参考ページ](https://wa3.i-3-i.info/search.html?q=%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9&ln=)
   - [応用:データベース設計](https://qiita.com/KNR109/items/5d4a1954f3e8fd8eaae7)
   - [応用:Cloud上でのDB(AWS Amazon Aurora)](https://business.ntt-east.co.jp/content/cloudsolution/column-71.html)
-- [SQL入門(Progate)](https://prog-8.com/courses/sql)
-  - [応用:適切なIndexを張るために](https://qiita.com/kodai-saito/items/541e4fe46c2d3edc9634)
 
 ## Checkpoint
 
