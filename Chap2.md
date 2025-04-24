@@ -30,7 +30,6 @@
 | その他        | Docker                        | [【初心者向け・図解】Dockerとは？現役エンジニアがわかりやすく解説](https://o2mamiblog.com/docker-beginner-1/) |
 | その他        | Postman                       | [ワークショップ - API基礎 Documentation](https://www.postman.com/postman/postman-japan-workshop/documentation/aslsdcq/api) |
 
-[バックエンド教育ロードマップ](https://pj100.esa.io/posts/5487)を参考に作成
 
 
 ## 環境構築
