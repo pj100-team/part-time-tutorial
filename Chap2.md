@@ -251,7 +251,7 @@ https://note.com/a_244/n/n0ba924a4a4d3?magazine_key=m058abba754d6
 
 ## Checkpoint
 
-Q1. 以下の単語はどのような意味か説明してください。
+Q1. 以下の単語はどのような意味か説明してください！
 
 1. RestAPI, エンドポイント, URI
 3. HTTPリクエスト、レスポンス
@@ -263,7 +263,7 @@ Q1. 以下の単語はどのような意味か説明してください。
 9. HTTPとHTTPSの違い
 10. リクエストボディとリクエストヘッダ
 
-Q2 Django REST Framework 課題：TODO一覧APIを作ってみよう！
+Q2 Django REST Framework 課題：TODO一覧APIを作ってみましょう！
 
 ## 🎯 目標
 - `/api/todos/` にアクセスすると、TODOの一覧が JSON 形式で返ってくるAPIを作成してみましょう！まずは下記の説明を見ずにAPIを作成しましょう！
