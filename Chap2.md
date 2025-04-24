@@ -268,6 +268,7 @@ Q2 Django REST Framework 課題：TODO一覧APIを作ってみよう！
 ## 🎯 目標
 - `/api/todos/` にアクセスすると、TODOの一覧が JSON 形式で返ってくるAPIを作成してみましょう！まずは下記の説明を見ずにAPIを作成しましょう！
 
+下記説明詳細タグ
 <details>
 
 ## 🪜 ステップバイステップ解説
