@@ -3,9 +3,35 @@
 [Back to README](/README.md)
 
 [Back to Previous Chapter](/Chap1.md)
-## プログラミング言語とは
-最初にプログラミング言語がどういう物なのかを体験するために以下のページで簡単にPython(無料部分のみ)を触って見ましょう!  
-[Pythonって何](https://prog-8.com/lessons/python/study/1)
+
+
+
+## <font color="Coral">WEB開発における語彙のキャッチアップ</font>
+> [!tip]
+> - はじめから、全てを完全に理解する必要はありません。
+> - 実務を通じて、徐々に深く理解していけば問題ありません。
+> - まずは、広く浅く概要を掴むことを目標にしてください。
+
+
+| カテゴリ     | 知識・技術                     | 参考URL |
+|--------------|-------------------------------|-----------------------------------|
+| Web知識      | HTTP/HTTPS                    | [httpsとは？httpとの違いやよくある勘違い・セキュリティの基礎まで](https://cybersecurity-jp.com/column/25772) |
+| Web知識      | TCP/IP                        | [TCP/IPとは「分かりそう」で「分からない」でも「分かった」気になれるIT用語辞典](https://wa3.i-3-i.info/word1540.html) |
+| Web知識      | SSH                           | [SSHとは？仕組みや認証方法を解説](https://hnavi.co.jp/knowledge/blog/ssh/) |
+| Web知識      | API                           | [REST APIとは？特徴やメリットをわかりやすく解説](https://envader.plus/article/83) |
+| Web知識      | CORS                          | [CORSについて簡単に説明する](https://tech-lab.sios.jp/archives/37299) |
+| Web知識      | HTTPメソッド                  | [Web開発でよく使う4つのHTTPメソッド【REST API】](https://tsuyopon.xyz/2019/01/31/understand-4-http-methods/) |
+| Web知識      | ステータスコード               | [api ステータスコードとは？その設計方法は？](https://apidog.com/jp/blog/what-is-api-status-code-and-its-designing/) |
+| Web知識      | セキュリティ                  | [セキュリティとは？意味や種類、基本のセキュリティ対策をわかりやすく解説](https://aslead.nri.co.jp/ownedmedia/development/security-001/) |
+| プログラミング| Python                        | [Pythonを使ったWebアプリケーションの開発の流れと企業が注意するべきポイント](https://corp.tech.hipro-job.jp/column/175) |
+| ミドルウェア  | DB設計                        | ・[データベース設計とは？設計する目的・流れ・ポイントについて詳しく解説！](https://www.incudata.co.jp/magazine/000611.html)<br>・[ER図とは？書き方やテクニックをわかりやすく解説](https://products.sint.co.jp/ober/blog/create-er-diagram) |
+| ミドルウェア  | SQL                           | [【SQL入門】データベース言語の基礎知識と実践方法を解説！](https://udemy.benesse.co.jp/development/system/intro-sql.html) |
+| ミドルウェア  | Nginx                         | [【超入門】これさえ読めばOK！初心者でもわかる NGINX 解説](https://beyondjapan.com/blog/2024/05/about_nginx/) |
+| その他        | Docker                        | [【初心者向け・図解】Dockerとは？現役エンジニアがわかりやすく解説](https://o2mamiblog.com/docker-beginner-1/) |
+| その他        | Postman                       | [ワークショップ - API基礎 Documentation](https://www.postman.com/postman/postman-japan-workshop/documentation/aslsdcq/api) |
+
+[バックエンド教育ロードマップ](https://pj100.esa.io/posts/5487)を参考に作成
+
 
 ## 環境構築
 本節では主にPythonの学習を行っていきます。
@@ -92,24 +118,6 @@ poetry --version
 ```
 が実行できればOKです！
 
-## Checkpoint1
-
-Q1. `pyenv`と`poetry`を使用して、python3.11を使用したプロジェクトを作ってみましょう！
-
-※CheckPoint4で同じ環境を使用するので、プロジェクトは残しておくことをお勧めします。
-
-ヒント: Google検索してやり方を見てみましょう！公式ドキュメントにも色々書いてるので英語を頑張って読んだり、日本語訳したりして、読んでいきましょう！
-
-Q2. なぜ`pyenv`のような仮想環境ツールが必要なのでしょうか？
-
-Q3. `pyproject.toml`に記載されている`tool.poetry.dependencies`と`tool.poetry.group.dev.dependencies`にそれぞれ含まれるライブラリの違いは何でしょうか?
-
-Q4. `poetry.lock`ファイルは`git`で管理すべきでしょうか？しないべきでしょうか？
-
-Q5. `poetry.lock`ファイルが存在せずに、`pyproject.toml`のみが存在する場合に、どのような問題が起こるでしょうか？
-
-Q6. `poetry.lock`ファイルに存在する、`hash`という項目はなぜ必要なのでしょうか？
-
 ## Python
 
 Python言語について勉強しましょう！
@@ -131,9 +139,9 @@ https://qiita.com/kaitolucifer/items/dc58efebd72d72a8feb2
 
 上述の記事でPDBの基本的な使用方法が説明されています。
 
-## Checkpoint2
+## Checkpoint
 
-Q1. Checkpoint1で作成したプロジェクトに、`fizzbuzz.py`というファイルを作成して、以下の仕様を満たすプログラムを書いてみてください。
+Q1. `fizzbuzz.py`というファイルを作成して、以下の仕様を満たすプログラムを書いてみてください。
 
 仕様
 
@@ -179,9 +187,7 @@ ValueError("hoge is invalid input!")
 
 Q2. pdbを使って、作成した処理で`N`の値を確認しましょう。
 
-Q3. Classを使ったなんかいい課題を教えて下さい(help!)
-
-Q4. is-a関係とhas-a関係の違いは？
+Q3. is-a関係とhas-a関係の違いは？
 
 
 ## DB
@@ -207,7 +213,7 @@ Webアプリケーションにおけるデータを保管するデータベー�
 - [SQL入門(Progate)](https://prog-8.com/courses/sql)
   - [応用:適切なIndexを張るために](https://qiita.com/kodai-saito/items/541e4fe46c2d3edc9634)
 
-## Checkpoint3
+## Checkpoint
 
 Q1. DBにIndexを張るメリットとデメリットとは何でしょうか？
 
@@ -234,7 +240,12 @@ https://docs.djangoproject.com/ja/5.1/
 - [ライブラリ](https://wa3.i-3-i.info/word1473.html)
 - [ライブラリとフレームワークの違い](https://wa3.i-3-i.info/diff1146programming.html)
 
-## Checkpoint4
+## Django REST Framework
+次に、アイフルの実務で利用するDjango REST Frameworkについて学んでいきましょう！
+下記のNoteの記事を1~12章まで読み進めましょう！
+https://note.com/a_244/n/n0ba924a4a4d3?magazine_key=m058abba754d6
+
+## Checkpoint
 
 Q1. 以下の単語はどのような意味か説明してください。
 
