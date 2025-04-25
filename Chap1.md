@@ -123,6 +123,9 @@ https://xtech.nikkei.com/atcl/learning/column/19/00014/
 記事を読む
 [Visual Studio Code の使い方、基本の「キ」](https://www.atmarkit.co.jp/ait/articles/1507/10/news028.html)
 
+#### 便利なVisualStudeiCodeの拡張機能
+https://qiita.com/qrrq/items/0e116a59743874d18cb1
+
 ## git とその使い方
 
 続いて、`git`について勉強します。エンジニアとして、働く以上`git`を避けては通れません！
