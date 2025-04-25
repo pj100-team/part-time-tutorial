@@ -244,8 +244,9 @@ https://docs.djangoproject.com/ja/5.1/
 
 ## Django REST Framework
 次に、アイフルの実務で利用するDjango REST Frameworkについて学んでいきましょう！
-下記のNoteの記事を1~12章まで読み進めましょう！
-https://note.com/a_244/n/n0ba924a4a4d3?magazine_key=m058abba754d6
+下記のNoteの記事を1~12章まで読むか、公式ドキュメントのどちらかを読んでみましょう！<br>
+https://note.com/a_244/n/n0ba924a4a4d3?magazine_key=m058abba754d6<br>
+https://www.django-rest-framework.org/tutorial/quickstart/#quickstart
 
 ## Checkpoint
 
