@@ -233,19 +233,7 @@ https://www.django-rest-framework.org/tutorial/quickstart/#quickstart
 
 ## Checkpoint
 
-Q1. 以下の単語はどのような意味か説明してください！
-
-1. RestAPI, エンドポイント, URI
-3. HTTPリクエスト、レスポンス
-4. Session
-5. Cookie
-6. HTTPステータスコード 例えば(404)
-7. HTTPリクエストメソッド
-8. CSRFトークン
-9. HTTPとHTTPSの違い
-10. リクエストボディとリクエストヘッダ
-
-Q2 Django REST Framework 課題：TODO一覧APIを作ってみましょう！
+Q1 Django REST Framework 課題：TODO一覧APIを作ってみましょう！
 
 ## 🎯 目標
 - `/api/todos/` にアクセスすると、TODOの一覧が JSON 形式で返ってくるAPIを作成してみましょう！まずは下記の説明を見ずにAPIを作成しましょう！
