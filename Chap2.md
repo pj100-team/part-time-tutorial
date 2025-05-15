@@ -179,38 +179,6 @@ Traceback (most recent call last):
 ValueError("hoge is invalid input!")
 ```
 
-
-
-## DB
-Webアプリケーションにおけるデータを保管するデータベース(以下DB)について勉強していきましょう。
-
-実際のWebアプリケーションではORM(Object Relation Mapping)と呼ばれるDBを抽象化(細かい操作は見えなくして簡単に扱えるようにすること)したライブラリが使われます。これによりSQL文を書かなくても、例えばPythonのDjangoフレームワークだと`.save`や`.delete`のような関数みたいに扱うことができます。つまり、いちいち`INSERT INTO`や`UPDATE`のような長い命令を下さなくてもPythonの関数の様に書けるので便利なのです。
-
-しかし、実際のサービスではORMしか知らないと、N+1問題やクエリの実行計画を見れないなどのWebアプリケーションのパフォーマンスを十分なものにすることはできません。
-
-そこで、まず最初はDBとはどういうものか、そしてDBを操るSQLとはどういったものなのかをさらっと理解しておきましょう。
-以下のDB入門(応用は興味があれば)、SQL入門の記事に目を通してください。
-実際のDBにどのようなものがあるかを知るために、DBエンジンの種類に関しての記事を追加しました。
-また、terminalでDBのテーブルを参照して実際に登録されている実感が湧かないため、視覚的に見れるツールDBeaverについても説明追加しました。
-
-- [DB入門](https://qiita.com/higasun/items/0767107dc7100a60f4e4)
-  - [DBエンジンの種類](https://zenn.dev/lisras/articles/5ca8dfb5c26e81)
-  - [DBとDBエンジンの違い](https://wa3.i-3-i.info/word11570.html)
-  - [DBを視覚的に確認するには(DBeaver)](https://zenn.dev/aiq_dev/articles/2629b53f1298bc)
-  - [DBeaver使い方](https://qiita.com/12345/items/48f6856e32fd618ea307)
-  - [DB用語参考ページ](https://wa3.i-3-i.info/search.html?q=%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9&ln=)
-  - [応用:データベース設計](https://qiita.com/KNR109/items/5d4a1954f3e8fd8eaae7)
-  - [応用:Cloud上でのDB(AWS Amazon Aurora)](https://business.ntt-east.co.jp/content/cloudsolution/column-71.html)
-
-## Checkpoint
-
-Q1. DBにIndexを張るメリットとデメリットとは何でしょうか？
-
-Q2. デッドロックになる場合はどのような場合でしょうか？
-
-Q3. N+1問題とは何でしょうか？
-
-
 ## Django 
 
 いよいよWebアプリケーションのバックエンドを開発していきます！
