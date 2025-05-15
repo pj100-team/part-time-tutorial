@@ -126,22 +126,12 @@ poetry --version
 
 Python言語について勉強しましょう！
 
-https://www.tohoho-web.com/python/
+https://www.python.jp/train/index.html
 
 特に、基本的な文法(`if`, `for`)と`Class`は重要なのでよく勉強してみてください。
 
-`Class`についてよくわからない場合は以下のサイトを参考にしてみてください！
+最後の演習問題は飛ばしてもらってもOKです。
 
-https://lemon818.com/python-class/
-
-【動画】
-https://www.youtube.com/watch?v=F5guF1y7G48
-
-またPythonのデバッガPDBを使えるようにしましょう！
-
-https://qiita.com/kaitolucifer/items/dc58efebd72d72a8feb2
-
-上述の記事でPDBの基本的な使用方法が説明されています。
 
 ## Checkpoint
 
@@ -189,9 +179,6 @@ Traceback (most recent call last):
 ValueError("hoge is invalid input!")
 ```
 
-Q2. pdbを使って、作成した処理で`N`の値を確認しましょう。
-
-Q3. is-a関係とhas-a関係の違いは？
 
 
 ## DB
@@ -223,10 +210,6 @@ Q2. デッドロックになる場合はどのような場合でしょうか？
 
 Q3. N+1問題とは何でしょうか？
 
-Q4. SQL100本ノックをやりましょう(1~30番ぐらいまではやってみましょう。それ以降はお好みで)
-
-(Google Colaboratoryで実行できます。)
-https://note.com/nmt_rootassist/n/nf70b6e73f673
 
 ## Django 
 
