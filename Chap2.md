@@ -211,7 +211,7 @@ Q1 Django REST Framework 課題：TODO一覧APIを作ってみましょう！
 
 ## 🪜 ステップバイステップ解説
 
-### ① モデルとテストデータを作成
+### ① モデルを作成
 
 モデルの作成
 
@@ -226,6 +226,17 @@ class Todo(models.Model):
     def __str__(self):
         return self.title
 ```
+
+### ② マイグレーションの実行とテストデータの作成
+```
+python manage.py makemigrations
+```
+```
+python manage.py migrate
+```
+この操作により、モデルからデータベースが作成されます。
+
+
 テストデータの作成
 
 下記でDjangoシェルを開く
@@ -239,16 +250,6 @@ from todos.models import Todo
 Todo.objects.create(title="牛乳を買う", is_done=False)
 Todo.objects.create(title="DRF課題を終わらせる", is_done=True)
 
-```
-
-
-
-### ② マイグレーションの実行
-```
-python manage.py makemigrations
-```
-```
-python manage.py migrate
 ```
 
 ### ③　シリアライザを作成
@@ -303,6 +304,27 @@ urlpatterns = [
 ### 確認方法
 python manage.py runserverでサーバーを起動し、http://localhost:8000/api/todos/
 でTODOの一覧が表示されれば成功です。
+
+### 403 Forbiddenエラーが出るときは...
+`settings.py` でREST_FRAMEWORKのパーミッション設定を以下のようにしていると、認証されていないユーザーに403エラーが返されます。
+```python
+#settings.py
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES' : [
+        'rest_framework.permissions.IsAuthenticated',
+    ]
+}
+```
+この部分を以下のように書き換えることで、ログインしていないユーザーでもAPIにアクセスできるようになります。(ただし、実用化する場合は認証を要求しないとセキュリティ上のリスクあり)
+```python
+#settings.py
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES' : [
+        'rest_framework.permissions.AllowAny',
+    ]
+}
+```
+
 
 ## 🧠 おまけ課題（余力があれば挑戦！）
 
