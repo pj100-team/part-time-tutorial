@@ -222,7 +222,7 @@ ssh -T git@github.com
 Hi (account名)! You've successfully authenticated, but GitHub does not provide shell access.
 ```
 
-できない場合は、https://www.kagoya.jp/howto/it-glossary/develop/github_ssh/を参考にSSHで接続できるようにしましょう！
+できない場合は、https://qiita.com/shizuma/items/2b2f873a0034839e47ceを参考にSSHで接続できるようにしましょう！
 
 Q3. `github`で、[こちらの記事](https://docs.github.com/ja/get-started/quickstart/create-a-repo)を参考にしてリポジトリを作成しましょう。また、そのリポジトリに`README.md`を作成しましょう。
 
