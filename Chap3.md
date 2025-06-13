@@ -26,6 +26,12 @@ volta --version
 
 のような文字列が表示されればOKです！
 
+Homebrew環境がある場合は、それを使用して以下のコマンドでインストールすることもできます。
+
+```
+brew install volta
+```
+
 voltaを使用して、nodeをインストールしておきましょう。
 今回は16系のnodeを使用します。
 
@@ -133,4 +139,3 @@ Q4. 下記の関数をアロー関数を用いて書き直してください。
 改善点の`Pull Request`が出されたら、本Chapterのフィードバックと次Chapterのプランを作成するための面談をセットするので改善点の`Pull Request`はどんな内容でもいいので必ず出してください！
 
 [Go to Next Chapter](/Chap4.md)
-
