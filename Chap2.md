@@ -186,7 +186,7 @@ ValueError("hoge is invalid input!")
 まずはPythonのフレームワークであるDjango(Web開発のためのPython)の公式のチュートリアルやドキュメントを読んでみましょう！  
 https://docs.djangoproject.com/ja/5.1/  
 最初にDjangoを自分のPCに[インストール](https://docs.djangoproject.com/ja/5.1/intro/install/)して、
-[チュートリアル](https://docs.djangoproject.com/ja/5.1/intro/tutorial01/)
+[チュートリアル](https://docs.djangoproject.com/ja/5.2/)
 のその7まで読みながら実行しましょう！
 
 ちなみにこれからライブラリやフレームワークという言葉が多用されますが、どちらもよく使われる機能を実装して、その機能を毎回ゼロからコードで書かなくても良いように準備された便利なファイルです！
