@@ -36,7 +36,7 @@ https://github.com/pj100-team/react-v3/issues
 
 <img src='todolist_search.png'></img>
 
-参考にしたのはMicroSoftのTODOリストです。機能を絞ってありますが、もしも動作を確認したい場合は、以下のリンクからアクセスできます。
+参考にしたのはMicrosoftのTODOリストです。機能を絞ってありますが、もしも動作を確認したい場合は、以下のリンクからアクセスできます。
 もしも要件でわからないところがあれば参考にしてください。
 
 https://to-do.live.com/tasks
