@@ -127,6 +127,7 @@ poetry --version
 Python言語について勉強しましょう！
 
 https://www.python.jp/train/index.html
+https://qiita.com/eric50905/items/3030cfa03f849fec04dd (Python Classについての記事)
 
 特に、基本的な文法(`if`, `for`)と`Class`は重要なのでよく勉強してみてください。
 
