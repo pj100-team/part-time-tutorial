@@ -102,6 +102,7 @@ git --version
 続いて、Linux コマンドの使い方を学習していきます。(MacOS でも大体一緒です！)
 まず最初に Linux のキホンについて以下のブログにまとまっているので見てみると良いと思います！
 (Linux の環境構築ではなく、コマンドを中心に学習すると良いです！)
+(そもそもコマンドって？っていう方はCUIとGUIの違いをわかりやすくまとめているブログがあるのでご参考までに！→https://tcd-theme.com/2019/12/cui-gui.html)
 
 https://eng-entrance.com/category/linux/linux-basic
 
