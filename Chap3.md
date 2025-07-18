@@ -91,7 +91,7 @@ TypeScriptの基本的な文法を以下の資料を読んで理解しましょ�
 
 - [ ] [TypeScript入門 & 環境構築](https://typescript-jp.gitbook.io/deep-dive/getting-started)
 - [ ] [JavaScript](https://typescript-jp.gitbook.io/deep-dive/recap)
-- [ ] [モダンなJavaScriptの機能](https://typescript-jp.gitbook.io/deep-dive/recap)
+- [ ] [モダンなJavaScriptの機能](https://typescript-jp.gitbook.io/deep-dive/future-javascript)
 - [ ] [プロジェクトの環境設定](https://typescript-jp.gitbook.io/deep-dive/project)
 - [ ] [Node.js & TypeScriptのプロジェクト作成](https://typescript-jp.gitbook.io/deep-dive/nodejs)
 
