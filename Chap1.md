@@ -164,6 +164,7 @@ Web 開発を行う基本となる HTML と CSS について学んで行きま�
 を行いましょう！
 
 サイトのトップページ[Web デザインの教科書](https://web-design-textbook.com/)
+htmlとCSSの細かな仕様は[html](https://developer.mozilla.org/ja/docs/Web/HTML), [CSS](https://developer.mozilla.org/ja/docs/Web/CSS)で見られます。
 
 ## DevTools
 
